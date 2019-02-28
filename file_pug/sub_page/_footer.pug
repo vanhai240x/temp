@@ -1,0 +1,90 @@
+.container-fluid.contact
+    .container
+        .row.contact__top
+            .col-4.contact__top__content.first
+                i.fas.fa-th-large
+                .title VỀ CHÚNG TÔI
+                .text Công ty Cổ phần Công nghệ DKT đã và đang khẳng định được vị trí hàng đầu trong lĩnh vực thương mại điện tử.
+                mixin icon(cl,text)
+                    .icon
+                        i.fas(class=cl)
+                        .text= text
+                        .clearfix
+                +icon('fa-map-marker-alt','Tầng 4 toàn nhà Hanoi Group | 442 Đội Cấn Ba Đình -  Hà Nội')
+                +icon('fa-envelope','support@dkt.com.vn')
+                +icon('fa-mobile-alt','(84-4) 66558856 - (88-4) 52656565')
+            mixin contact(title, l1, l2, l3, l4, l5, l6)
+                .col-2.contact__top__content
+                    i.fas.fa-th-large
+                    .title= title
+                    each val in [l1, l2, l3, l4, l5, l6]
+                        li= val
+            +contact('CHÍNH SÁCH','Chính sách giao hàng','Chính sách đổi sản phẩm','Chính sách bảo hành','Chính sách trả góp','Giới thiệu hàng đổi trả','Vận chuyển miễn phí')
+            +contact('DỊCH VỤ & HỖ TRỢ','Hệ thống cửa hàng','Dịch vụ đổi trả hàng','Hướng dẫn mua hàng','Hướng dẫn thanh toán','Tích điểm đổi thưởng','Câu hỏi thường gặp')
+            +contact('TIN TỨC - SỰ KIỆN','Tin tức mới nhất','Tin tức khuyến mại','Tuyển dụng, đãi ngộ','Download tài liệu','Chương trình đối tác','Nhà phát triển ứng dụng')
+            .col-2.contact__top__content
+                i.fas.fa-th-large
+                .title KẾT NỐI
+                mixin connect(cl,text)
+                    li
+                        i.fab(class=cl)
+                        div=text
+                +connect('fa-facebook-f','Facebook')
+                +connect('fa-twitter','Twitter')
+                +connect('fa-google-plus-g','Google')
+                +connect('fa-skype','Skype')
+                +connect('fa-instagram','Instagram')
+        hr
+        .row.contact__bottom
+            .col-6.contact__bottom__left
+                .title Thanh toán:
+                .col-3.img
+                    img(src="../build/images/26.jpg", alt="")
+                .col-3.img
+                    img(src="../build/images/27.jpg", alt="")
+                .col-3.img
+                    img(src="../build/images/28.jpg", alt="")
+                .col-3.img
+                    img(src="../build/images/29.jpg", alt="")
+                .col-3.img
+                    img(src="../build/images/30.jpg", alt="")
+                .col-3.img
+                    img(src="../build/images/31.jpg", alt="")
+                .col-3.img
+                    img(src="../build/images/32.jpg", alt="")
+                .col-3.img
+                    img(src="../build/images/33.jpg", alt="")
+            .col-6.contact__bottom__right
+                .title Giải đáp nhanh:
+                .col-6.content
+                    .icon
+                        i.fas.fa-phone
+                    .wrap-text
+                        .text
+                            .text-top Tư vấn miễn phí (24/7)
+                            .text-bottom 1900 650 650
+                .col-6.content
+                    .icon
+                        i.fas.fa-comments
+                    .wrap-text
+                        .text
+                            .text-top Góp ý - phản hồi - thắc mắc
+                            .text-bottom 1900 650 650
+.container-fluid.footer
+    .container
+        .footer__left
+            .copyright Bản quyền thuộc về <b>Design Team</b>. Phát triển bởi <b>Bizweb</b>.
+        .footer__right
+            ul
+                a(href="../file_pug/homepage.html")
+                    li Trang chủ
+                a(href="")
+                    li Giới thiệu
+                a(href="../file_pug/product.html")
+                    li Sản phẩm
+                a(href="../file_pug/blog.html")
+                    li Tin khuyến mại
+                a(href="")
+                    li Dịch vụ
+                a(href="")
+                    li Liên hệ
