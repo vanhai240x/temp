@@ -1,0 +1,59 @@
+header.header
+    .container-fluid.header__top
+        .container
+            .header__top__left
+                each val in ['fa-facebook-f','fa-google-plus-g','fa-instagram','fa-twitter']
+                    button
+                        i.fab(class=val)
+            .header__top__right
+                a(href="../file_pug/signup.html")
+                    button ĐĂNG KÍ
+                a(href="../file_pug/signin.html")
+                    button ĐĂNG NHẬP
+            .clearfix
+    .container-fluid.header__center
+        .container
+            .row
+                .col-3.header__center__logo
+                    img(src="../build/images/logo.png", alt="logo", class="logo-img")
+                .col-3.header__center__phone
+                    div
+                        h5 HOTLINE:
+                        p (04) 9500 9650 - (04) 9500 8850
+                .col-3.header__center__phone
+                    div
+                        h5 ĐẶT HÀNG NHANH:
+                        p (04) 9500 9650 - (04) 9500 8850
+                .col-3.header__center__search
+                    div
+                        input(type="text", placeholder="Tìm kiếm...")
+                        i.fas.fa-search
+    .container-fluid.header__menu
+        .container
+            .header__menu__left
+                ul
+                    a(href="../file_pug/homepage.html")
+                        li.active TRANG CHỦ
+                    a.dropdown-toggle(data-toggle='dropdown')
+                        li GIỚI THIỆU
+                    .dropdown-menu
+                        mixin dropdown(link, text)
+                            a.dropdown-item(href=link) 
+                                i.fas.fa-caret-right
+                                span=text
+                        +dropdown('','Giới thiệu chung')
+                        +dropdown('','Hệ thống cửa hàng')
+                        +dropdown('','Chính sách ưu đãi')
+                        +dropdown('','Thông tin tuyển dụng')
+                    a(href="../file_pug/product.html")
+                        li SẢN PHẨM
+                    a(href="../file_pug/blog.html")
+                        li TIN KHUYẾN MẠI
+                    a(href="")
+                        li DỊCH VỤ
+                    a(href="")
+                        li LIÊN HỆ
+            .header__menu__right
+                a(href="../file_pug/cart.html")
+                    i.fas.fa-shopping-basket
+                    p 0
