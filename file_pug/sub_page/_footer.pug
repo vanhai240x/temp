@@ -38,22 +38,9 @@
         .row.contact__bottom
             .col-6.contact__bottom__left
                 .title Thanh toán:
-                .col-3.img
-                    img(src="../build/images/26.jpg", alt="")
-                .col-3.img
-                    img(src="../build/images/27.jpg", alt="")
-                .col-3.img
-                    img(src="../build/images/28.jpg", alt="")
-                .col-3.img
-                    img(src="../build/images/29.jpg", alt="")
-                .col-3.img
-                    img(src="../build/images/30.jpg", alt="")
-                .col-3.img
-                    img(src="../build/images/31.jpg", alt="")
-                .col-3.img
-                    img(src="../build/images/32.jpg", alt="")
-                .col-3.img
-                    img(src="../build/images/33.jpg", alt="")
+                each val in ['../build/images/26.jpg','../build/images/27.jpg','../build/images/28.jpg','../build/images/29.jpg','../build/images/30.jpg','../build/images/31.jpg','../build/images/32.jpg','../build/images/33.jpg',]
+                    .col-3.img
+                        img(src= val)
             .col-6.contact__bottom__right
                 .title Giải đáp nhanh:
                 .col-6.content
