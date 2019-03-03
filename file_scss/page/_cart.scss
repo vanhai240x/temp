@@ -1,0 +1,92 @@
+.cart {
+    font-weight: bold;
+    .breadcrumb {
+        font-weight: normal;
+    }
+    .button {
+        float: right;
+        button {
+            font-size: $p14;
+            font-weight: bold;
+            height: 55px;
+            padding: 0 $p30;
+            margin: 15px $p0 $p80 $p10;
+            color: $white;
+            background: $black-bg;
+            &:hover {
+                background: $yellow;
+                transition: .3s;
+            }
+        }
+    }
+}
+
+.table {
+    text-align: center;
+    th {
+        padding: 1rem 0;
+    }
+    tbody {
+        tr {
+            height: 150px;
+            td {
+                position: relative;
+                .wrap {
+                    @include align-center;
+                    img {
+                        width: $pc100;
+                    }
+                }
+                $m-width: 1140px;
+                &:nth-child(1) {
+                    width: $m-width/12;
+                }
+                &:nth-child(2) {
+                    width: $m-width/12*2;
+                }
+                &:nth-child(3) {
+                    width: $m-width/12*3;
+                    div {
+                        width: $pc100;
+                    }
+                }
+                &:nth-child(4) {
+                    width: $m-width/12*2;
+                }
+                &:nth-child(5) {
+                    width: $m-width/12;
+                }
+                &:nth-child(6) {
+                    width: $m-width/12*2;
+                }
+                &:nth-child(7) {
+                    width: $m-width/12;
+                    color: $red;
+                }
+            }
+        }
+    }
+}
+
+.table-pay {
+    width: $pc100;
+    float: right;
+    text-transform: uppercase;
+    tbody {
+        width: $pc50;
+        float: right;
+        tr {
+            height: $p60;
+            td {
+                padding: 0 $p30 0 150px;
+                text-align: right;
+                &.red {
+                    color: $red;
+                }
+            }
+        }
+    }
+    &.table-bordered {
+        border: none;
+    }
+}
