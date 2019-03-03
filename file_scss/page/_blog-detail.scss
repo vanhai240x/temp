@@ -1,0 +1,135 @@
+.blog-detail {
+    .row {
+        .col-9.blog__content {
+            .blog__content__wrap {
+                .img {
+                    padding: $p30 $p50;
+                    img {
+                        width: $pc100;
+                        height: auto;
+                    }
+                }
+                .bottom {
+                    margin-top: $p30;
+                    .tags {
+                        float: left;
+                        width: max-content;
+                        .title {
+                            float: left;
+                        }
+                        p {
+                            float: left;
+                            margin: $p10;
+                            font-style: italic;
+                            font-size: $p13;
+                            color: $gray-800;
+                            &:hover {
+                                color: $yellow;
+                            }
+                        }
+                    }
+                    .share {
+                        @extend .tags;
+                        float: right;
+                        button {
+                            width: 32px;
+                            height: 32px;
+                            border: $border;
+                            color: $gray-800;
+                            margin: $p5 0 0 $p5;
+                            &:hover {
+                                color: $white;
+                                background: $yellow;
+                                transition: .3s;
+                                border: $p1 solid $yellow;
+                            }
+                        }
+                    }
+                }
+            }
+            .blog__content__cmt {
+                .title {
+                    font-size: $p14;
+                    font-weight: bold;
+                }
+                .cmt1 {
+                    margin-top: $p40;
+                    .img {
+                        @include clear;
+                        img {
+                            border: $border;
+                            padding: 3px;
+                            width: $pc90;
+                        }
+                    }
+                    .content {
+                        @extend .img;
+                        font-size: $p13;
+                        font-style: italic;
+                        text-align: justify;
+                        .title {
+                            font-style: normal;
+                        }
+                        .date {
+                            color: $gray-300;
+                            a {
+                                color: $yellow;
+                                text-decoration: underline;
+                                float: right;
+                            }
+                        }
+                        .cmt {
+                            color: $gray-800;
+                        }
+                    }
+                }
+            }
+            .blog__content__form {
+                @extend .blog__content__cmt;
+                .name {
+                    margin: $p10 0;
+                    width: 48%;
+                    float: left;
+                    font-size: $p14;
+                    p {
+                        color: #464646;
+                        display: inline;
+                    }
+                    i {
+                        color: $red;
+                    }
+                    input {
+                        width: $pc100;
+                        border: $border;
+                        height: $p40;
+                        margin: $p10 0;
+                    }
+                }
+                .email2 {
+                    @extend .name;
+                    float: right;
+                }
+                .comment {
+                    @extend .name;
+                    width: $pc100;
+                    input {
+                        height: 160px;
+                    }
+                }
+                button {
+                    height: 45px;
+                    padding: 0 15px;
+                    margin-bottom: $p100;
+                    font-size: $p14;
+                    font-weight: bold;
+                    color: $white;
+                    background: $black-bg;
+                    &:hover {
+                        background: $yellow;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+}
