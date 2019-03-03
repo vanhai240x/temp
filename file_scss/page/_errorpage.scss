@@ -1,0 +1,46 @@
+.error {
+    .error__left {
+        @include clear;
+        width: $pc60;
+        float: left;
+        position: relative;
+        .wrap {
+            @include align-center;
+            text-align: center;
+            .title {
+                font-size: $p100;
+                color: $yellow;
+                font-weight: bold;
+            }
+            .text {
+                width: max-content;
+                font-size: $p18;
+                color: $gray-900;
+            }
+            a {
+                button {
+                    width: 150px;
+                    height: 55px;
+                    font-size: $p14;
+                    font-weight: bold;
+                    color: $white;
+                    background: $gray-900;
+                    margin: $p30 0;
+                    &:hover {
+                        background: $yellow;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+    .error__right {
+        width: $pc40;
+        float: left;
+        .wrap {
+            img {
+                width: $pc100;
+            }
+        }
+    }
+}
