@@ -50,24 +50,9 @@ body
                 .content__right__header
                     include ../file_pug/sub_page/_header-product.pug
                 .content__right__content
-                    .detail
-                        +detail("../build/images/10.jpg")
-                    .detail
-                        +detail("../build/images/4.jpg")
-                    .detail
-                        +detail("../build/images/9.jpg")
-                    .detail
-                        +detail("../build/images/5.jpg")
-                    .detail
-                        +detail("../build/images/11.jpg")
-                    .detail
-                        +detail("../build/images/14.jpg")
-                    .detail
-                        +detail("../build/images/36.jpg")
-                    .detail
-                        +detail("../build/images/37.jpg")
-                    .detail
-                        +detail("../build/images/38.jpg")
+                    each val in ["../build/images/10.jpg","../build/images/4.jpg","../build/images/9.jpg","../build/images/5.jpg","../build/images/11.jpg","../build/images/14.jpg","../build/images/36.jpg","../build/images/37.jpg","../build/images/38.jpg",]
+                        .detail
+                            +detail(val)
                 .content__right__footer
                     include ../file_pug/sub_page/_footer-product.pug                                      
         .clearfix

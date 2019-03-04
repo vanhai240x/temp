@@ -1,11 +1,4 @@
 .wrap
-    a(href="")
-        button Trang trước
-    a(href="")
-        button.active 1
-    a(href="")
-        button 2
-    a(href="")
-        button 3
-    a(href="")
-        button Trang cuối 
+    each val in ['Trang trước','1','2','3','Trang cuối']
+        a(href="")
+            button val
