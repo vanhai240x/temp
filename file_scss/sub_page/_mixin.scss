@@ -1,0 +1,200 @@
+$border: 1px solid $gray-border;
+$box-shadow: $p0 $p0 4px $p0 #00000033;
+@mixin button() {
+    background: none;
+    display: inline;
+    font-size: $p14;
+    margin-top: -1px;
+    width: $p50;
+    height: $p50;
+    border: none;
+    border-left: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    transition: all .3s;
+    &:last-child {
+        border-right: 1px solid $gray-border;
+    }
+    &:hover {
+        background: $yellow;
+        color: $white;
+    }
+}
+
+@mixin clear {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin prod__detail {
+    padding-right: 0;
+    padding-left: 3%;
+    .wrap-content {
+        box-shadow: $box-shadow;
+        text-align: center;
+        padding: 6% 0;
+        img {
+            width: 55%;
+            margin: 5px 0;
+        }
+        .price {
+            color: $red;
+            font-size: $p14;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .name {
+            font-size: $p14;
+            font-weight: bold;
+            color: $black-bg;
+            text-transform: uppercase;
+            margin: 5px 0;
+        }
+        .vote {
+            font-size: $p12;
+            position: relative;
+            padding: 0 $pc20;
+            margin: 5px 0;
+            .star {
+                float: left;
+                color: $yellow;
+                padding: 0 3px;
+            }
+            .text {
+                float: left;
+                font-style: italic;
+                padding: 0 3px;
+                color: $gray-800;
+            }
+        }
+        .button {
+            button {
+                background: $black-bg;
+                font-size: $p12;
+                font-weight: bold;
+                height: $p40;
+                width: 41%;
+                margin: 0 5px;
+                color: #fff;
+                &:hover {
+                    background: $yellow;
+                }
+            }
+            visibility: hidden;
+        }
+    }
+    &:hover {
+        .button {
+            visibility: inherit;
+        }
+    }
+}
+
+@mixin prod__detail2 {
+    .name {
+        font-size: $p14;
+        font-weight: bold;
+        color: $black-bg;
+        text-transform: uppercase;
+        margin: 5px 0;
+    }
+    .vote {
+        font-size: $p12;
+        position: relative;
+        margin: 5px 0;
+        .star {
+            float: left;
+            color: $yellow;
+            padding: 0 3px;
+        }
+        .text {
+            float: left;
+            font-style: italic;
+            padding: 0 3px;
+            color: $gray-800;
+        }
+    }
+    .text {
+        font-size: 13px;
+        color: $gray-800;
+    }
+    .price {
+        color: $red;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 5px 0;
+    }
+    .button {
+        button {
+            background: $black-bg;
+            font-size: $p12;
+            font-weight: bold;
+            height: $p40;
+            width: 41%;
+            margin: 0 5px;
+            color: #fff;
+            &:hover {
+                background: $yellow;
+            }
+        }
+        visibility: hidden;
+    }
+    &:hover {
+        .button {
+            visibility: inherit;
+        }
+    }
+}
+
+@mixin title {
+    .fa-th-large {
+        font-size: $p14;
+        color: $yellow;
+        float: left;
+        font-size: $p12;
+        padding-top: 7px;
+    }
+    .title {
+        font-size: 16px;
+        color: $gray-900;
+        font-weight: bold;
+        float: left;
+        margin-left: $p10;
+    }
+}
+
+@mixin menu {
+    padding: 0;
+    box-shadow: $box-shadow;
+    .menu__info {
+        height: $p60;
+        padding-top: 18px;
+        font-size: 13px;
+        border-top: 1px solid $gray-border;
+        border-left: 1px solid $gray-border;
+        border-right: 1px solid $gray-border;
+        &:last-child {
+            border-bottom: 1px solid $gray-border;
+        }
+        &.active,
+        &:hover {
+            background: $black-bg;
+            transition: .5s;
+            .fas,
+            .text {
+                color: $yellow;
+            }
+        }
+        .fas {
+            width: 15%;
+            height: $p60;
+            color: $gray-800;
+            font-size: $p12;
+            float: left;
+            padding: 5px $p20;
+        }
+        .text {
+            float: left;
+            color: $gray-800;
+        }
+    }
+}

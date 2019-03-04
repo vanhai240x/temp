@@ -1,0 +1,238 @@
+.container {
+    padding: 0;
+    .breadcrumb {
+        padding: $p30 0;
+        background: none;
+        .breadcrumb-item {
+            padding-right: $p10;
+            color: $gray-800;
+            a {
+                color: $gray-800;
+            }
+            &.active {
+                color: $black-icon;
+            }
+        }
+        .fas {
+            color: $gray-800;
+            padding-right: $p10;
+            padding-top: $p5;
+        }
+    }
+    .content {
+        .content__left {
+            @include clear;
+            >[class*="menu"] {
+                margin-bottom: $p30;
+            }
+            float: left;
+            padding-right: $p30;
+            .menu {
+                @include menu();
+            }
+            .menu-price {
+                @include menu();
+            }
+            .menu-color {
+                @include menu();
+                .menu__info {
+                    .red {
+                        width: $p18;
+                        height: $p18;
+                        background: $red-bold;
+                        float: left;
+                        margin: 2px 15px;
+                    }
+                    .yellow {
+                        @extend .red;
+                        background: $yellow;
+                    }
+                    .blue {
+                        @extend .red;
+                        background: $blue;
+                    }
+                    .silver {
+                        @extend .red;
+                        background: $silver;
+                    }
+                    .black {
+                        @extend .red;
+                        background: $gray-900;
+                    }
+                }
+            }
+            .menu-promotion {
+                @include menu();
+                .menu__info {
+                    height: $p120;
+                    padding-top: 0;
+                    clear: both;
+                    .img {
+                        position: relative;
+                        width: 40%;
+                        height: $p120;
+                        float: left;
+                        img {
+                            @include align-center;
+                            width: 90%;
+                        }
+                    }
+                    .text2 {
+                        width: 60%;
+                        float: right;
+                        margin-top: 25px;
+                        .name {
+                            font-size: $p14;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                        }
+                        .price {
+                            @extend .name;
+                            color: $red;
+                            margin-top: $p5;
+                        }
+                    }
+                    &.active {
+                        height: $p60;
+                        .fas {
+                            padding-top: 22px;
+                        }
+                        .text {
+                            padding-top: $p18;
+                        }
+                    }
+                    &:hover {
+                        background: none;
+                    }
+                }
+            }
+        }
+        .content__right {
+            @include clear;
+            float: left;
+            margin-bottom: $p30;
+            .content__right__header {
+                font-size: $p14;
+                color: $black-bg;
+                height: $p60;
+                border-bottom: $p1 solid $gray-border;
+                padding-top: $p10;
+                p {
+                    float: left;
+                    margin-right: $p10;
+                    padding-top: $p5;
+                }
+                select {
+                    float: left;
+                    margin-right: $p30;
+                    padding: $p5 $p50 $p5 $p5;
+                    color: $gray-800;
+                    border: $p1 solid $gray-500;
+                }
+                .icon {
+                    float: right;
+                    .fas {
+                        border: $p1 solid $gray-500;
+                        color: $black-bg;
+                        padding: $p10;
+                        margin-left: $p5;
+                        font-size: $p16;
+                        &.active {
+                            color: $yellow;
+                        }
+                    }
+                }
+            }
+            .content__right__content {
+                margin: $p30 0;
+                .detail {
+                    height: 250px;
+                    margin-bottom: $p30;
+                    box-shadow: $box-shadow;
+                    .img {
+                        @include clear;
+                        float: left;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .info {
+                        @extend .img;
+                        @include prod__detail;
+                        padding: 3% 1%;
+                        .name {
+                            font-size: $p14;
+                            font-weight: bold;
+                            color: $black-bg;
+                            text-transform: uppercase;
+                            margin: $p5 0;
+                        }
+                        .vote {
+                            font-size: $p12;
+                            position: relative;
+                            line-height: $p10;
+                            .star {
+                                float: left;
+                                color: $yellow;
+                                padding: 0 3px;
+                            }
+                            .text {
+                                float: left;
+                                font-style: italic;
+                                padding: 0 3px;
+                                color: $gray-800;
+                            }
+                        }
+                        .text {
+                            font-size: $p13;
+                            color: $gray-800;
+                        }
+                        .price {
+                            color: $red;
+                            font-size: $p18;
+                            font-weight: bold;
+                            margin: $p5 0;
+                        }
+                        .button {
+                            button {
+                                background: #202020;
+                                font-size: $p12;
+                                font-weight: bold;
+                                height: $p40;
+                                padding: 0 25px;
+                                margin-right: 8px;
+                                color: #fff;
+                                &:hover {
+                                    background: $yellow;
+                                    transition: .3s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .content__right__footer {
+                font-size: $p13;
+                .wrap {
+                    float: right;
+                    a {
+                        button {
+                            height: $p40;
+                            color: $gray-800;
+                            border: $p1 solid $gray-500;
+                            padding: 0 $p16;
+                            margin-left: $p5;
+                            &.active,
+                            &:hover {
+                                background: $yellow;
+                                border: $p1 solid $yellow;
+                                transition: .3s;
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
