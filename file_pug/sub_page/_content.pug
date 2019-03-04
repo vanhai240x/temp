@@ -1,0 +1,175 @@
+mixin menu__info(text)
+    i.fas.fa-th-large
+    .text= text
+
+mixin prod__detail(link)
+    .wrap-content
+        img(src=link)
+        .price 1.550.000 Đ
+        .name Máy khoan Black Decker
+        .vote
+            .star
+                - var n = 0
+                    while n < 4
+                        i.fas.fa-star
+                        - n++
+                i.far.fa-star
+            .text (12 Đánh giá)
+            .clearfix
+        .button
+            a(href="")
+                button MUA NGAY
+            a(href="../file_pug/detail.html")
+                button XEM CHI TIẾT 
+
+mixin prod__detail2(link)
+    .wrap
+        .col-4.img
+            img(src=link, alt="")
+        .col-8.content
+            .name MÁY KHOAN CNC 3D
+            .vote
+                .star
+                    - var n = 0
+                        while n < 4
+                           i.fas.fa-star
+                           -n++ 
+                    i.far.fa-star
+                .text (12 Đánh giá)
+                .clearfix
+            .text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et...
+            .price 2.350.000 Đ
+            .button
+                a(href="")
+                    button MUA NGAY
+                a(href="../file_pug/detail.html")
+                    button XEM CHI TIẾT 
+        .clearfix
+.container
+    .prod-featured
+        .prod-featured__top
+            .prod-featured__top__left
+                i.fas.fa-th-large
+                h2 SẢN PHẨM NỔI BẬT
+            .prod-featured__top__right
+                button
+                    i.fas.fa-caret-left
+                button
+                    i.fas.fa-caret-right
+            .clearfix
+        .prod-featured__bottom
+            .row
+                .col-3.menu 
+                    .menu__info.active
+                        +menu__info('Máy khoan, cắt CNC')  
+                    each val in ['Máy in phun cỡ lớn','Máy quét Canon 3D','Máy hàn điện Alunima','Máy khoan Decameta','Máy phay đa năng CNC','Máy mài, tiện DC 12V','Máy khoan, cắt CNC','Máy quay thông minh N3','Motor R34C đa dụng','Máy in laser màu 3D']
+                        .menu__info
+                            +menu__info(val)
+                .col-9.prod
+                    .row
+                        each val in ['../build/images/3.jpg','../build/images/4.jpg','../build/images/5.jpg']
+                            .col-4.prod__detail
+                                +prod__detail(val)
+                    .row
+                        each val in ['../build/images/6.jpg','../build/images/7.jpg','../build/images/8.jpg']
+                            .col-4.prod__detail
+                                +prod__detail(val) 
+    .prod-new
+        .prod-new__top
+            .prod-new__top__left
+                i.fas.fa-th-large
+                h2 SẢN PHẨM MỚI
+                .clearfix
+            .prod-new__top__center
+                button
+                    i.fas.fa-caret-left
+                button
+                    i.fas.fa-caret-right
+            .prod-new__top__right
+                each val in ['Máy khoan','Máy in 3D','Máy CNC','Máy tiện','Máy khác']
+                    button= val
+            .clearfix
+        .prod-new__bottom
+            .row
+                .col-4.prod__detail
+                    +prod__detail('../build/images/9.jpg') 
+                .col-4.prod__detail
+                    +prod__detail('../build/images/10.jpg') 
+                .col-4.prod__detail
+                    +prod__detail('../build/images/11.jpg') 
+    .banner-mid
+        .row
+            .col-6.banner-mid__img
+                img(src="../build/images/12.jpg", alt="")
+            .col-6.banner-mid__img
+                img.right(src="../build/images/13.jpg", alt="")
+            .clearfix
+    .prod-sell
+        .prod-sell__top
+            .prod-sell__top__left
+                i.fas.fa-th-large
+                h2 SẢN PHẨM BÁN CHẠY
+                .clearfix
+            .prod-sell__top__center
+                button
+                    i.fas.fa-caret-left
+                button
+                    i.fas.fa-caret-right
+            .prod-sell__top__right
+                each val in ['Máy khoan','Máy in 3D','Máy CNC','Máy tiện','Máy khác']
+                    button= val
+            .clearfix
+        .prod-sell__bottom
+            .row
+                .col-3.prod-sell__bottom__left
+                    .prod-detail.high
+                        +prod__detail('../build/images/14.jpg') 
+                    .prod-detail
+                        +prod__detail('../build/images/15.jpg') 
+                .col-6.prod-sell__bottom__center
+                    .prod-detail.center
+                        +prod__detail('../build/images/16.jpg') 
+                .col-3.prod-sell__bottom__right
+                    .prod-detail.high
+                        +prod__detail('../build/images/17.jpg') 
+                    .prod-detail
+                        +prod__detail('../build/images/18.jpg') 
+        .prod-sell__banner
+            img(src="../build/images/19.jpg")
+    .prod-new-arrive
+        .prod-new-arrive__top
+            .prod-new-arrive__top__left
+                i.fas.fa-th-large
+                h2 HÀNG MỚI VỀ
+            .prod-new-arrive__top__right
+                button
+                    i.fas.fa-caret-left
+                button
+                    i.fas.fa-caret-right
+            .clearfix
+        .prod-new-arrive__bottom
+            .row
+                .col-6.prod-detail2
+                    +prod__detail2("../build/images/10.jpg")
+                .col-6.prod-detail2
+                    +prod__detail2("../build/images/15.jpg")
+            .row
+                .col-6.prod-detail2
+                    +prod__detail2("../build/images/4.jpg")
+                .col-6.prod-detail2
+                    +prod__detail2("../build/images/9.jpg")
+.container-fluid.spons
+    .container.spons__content
+        mixin spons(link)
+            .spons__content__img
+                img(src=link, alt="")
+        +spons('../build/images/20.png')
+        +spons('../build/images/21.png')
+        +spons('../build/images/22.png')
+        +spons('../build/images/23.png')
+        +spons('../build/images/24.png')
+        .clearfix
+.container-fluid.email
+    .text Đăng ký để nhận tin tức khuyến mại hàng tuần
+    input(type="text" placeholder="Nhập email của bạn...")
+    button ĐĂNG KÍ

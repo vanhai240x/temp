@@ -1,0 +1,68 @@
+.clearfix::after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+html,
+body,
+.row {
+    padding: $p0;
+    margin: $p0;
+    box-sizing: border-box;
+}
+
+button {
+    background: none;
+    border: none;
+    &:active,
+    &:focus,
+    &:hover {
+        outline: none !important;
+    }
+}
+
+input,
+textarea,
+select {
+    &:active,
+    &:focus,
+    &:hover {
+        outline: none;
+    }
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: $pc100;
+}
+
+ol,
+ul {
+    list-style: none;
+}

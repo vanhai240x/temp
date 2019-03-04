@@ -1,0 +1,14 @@
+.container {
+    .content {
+        .content__right {
+            .content__right__content {
+                .row {
+                    .prod__detail {
+                        @include prod__detail;
+                        padding: $pc0 $pc0 3% 3%;
+                    }
+                }
+            }
+        }
+    }
+}

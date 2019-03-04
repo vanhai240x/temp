@@ -1,0 +1,207 @@
+@import "_color.scss";
+@mixin align-center() {
+    position: absolute;
+    top: $pc50;
+    left: $pc50;
+    transform: translate(-$pc50, -$pc50);
+}
+
+.header {
+    .header__top {
+        height: $p50;
+        background: $gray-bg;
+        border: $p1 solid $gray-border;
+        .header__top__left {
+            display: inline;
+            button {
+                @include button;
+            }
+        }
+        .header__top__right {
+            float: right;
+            display: inline;
+            button {
+                @include button;
+                width: max-content;
+                padding: 0 $p20;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+    }
+    .header__center {
+        height: $p120;
+        .header__center__logo {
+            position: relative;
+            height: $p120;
+            img {
+                position: absolute;
+                top: $pc50;
+                transform: translateY(-$pc50);
+            }
+        }
+        .header__center__phone {
+            div {
+                @include align-center;
+                width: max-content;
+                h5 {
+                    color: $yellow;
+                    font-weight: bold;
+                    font-size: $p14;
+                }
+                p {
+                    color: $black-text;
+                    font-size: 13px;
+                }
+            }
+        }
+        .header__center__search {
+            div {
+                @include align-center;
+                width: $pc100;
+                input {
+                    width: $pc100;
+                    height: $p50;
+                    border: $p1 solid $gray-border;
+                    border-radius: 25px;
+                    padding: $p10;
+                    font-size: $p14;
+                }
+                i {
+                    position: absolute;
+                    top: $pc50;
+                    right: 5%;
+                    transform: translateY(-$pc50);
+                    color: gray;
+                }
+            }
+        }
+    }
+    .header__menu {
+        height: $p70;
+        background: $black-bg;
+        color: $white;
+        font-size: $p14;
+        font-weight: bold;
+        .header__menu__left {
+            display: inline-block;
+            ul {
+                list-style: none;
+                display: flex;
+                padding: 0;
+                margin: 0;
+                position: relative;
+                a {
+                    border-left: $p1 solid $black-icon;
+                    li {
+                        height: $p70;
+                        padding: $p20 $p30;
+                    }
+                    &:last-child {
+                        border-right: $p1 solid $black-icon;
+                    }
+                    &:hover,
+                    .active {
+                        background: $yellow;
+                        transition: all .3s;
+                    }
+                }
+                .dropdown-toggle {
+                    &::after {
+                        content: none;
+                    }
+                }
+                .dropdown-menu {
+                    padding: 0;
+                    margin: 0;
+                    font-family: arial;
+                    font-size: 13px;
+                    box-shadow: 0px 0px 5px #aba1a1a1;
+                    border-radius: 0;
+                    border: none;
+                    .show {
+                        border-radius: 0;
+                    }
+                    .dropdown-item {
+                        width: 203px;
+                        height: $p50;
+                        padding-top: $p14;
+                        border: none;
+                        &:hover {
+                            color: $white;
+                        }
+                        .fas {
+                            margin-right: $p10;
+                        }
+                    }
+                }
+            }
+        }
+        .header__menu__right {
+            display: inline;
+            float: right;
+            width: $p70;
+            height: $p70;
+            border: $p1 solid $black-icon;
+            position: relative;
+            a {
+                .fa-shopping-basket {
+                    font-size: 25px;
+                    @include align-center();
+                }
+                &::after {
+                    content: none;
+                }
+            }
+            p {
+                font-size: $p16;
+                font-weight: normal;
+                position: absolute;
+                top: 13%;
+                right: 13%;
+                background: $yellow;
+                width: 23px;
+                height: 23px;
+                text-align: center;
+                border-radius: $pc50;
+            }
+            &:hover {
+                background: $yellow;
+                transition: all .3s;
+                p {
+                    background: $black-icon;
+                    transition: all .3s;
+                }
+            }
+            .dropdown-menu {
+                position: absolute;
+                transform: none !important;
+                top: $pc100 !important;
+                left: -328% !important;
+                padding: 0;
+                margin: 0;
+                .dropdown-item {
+                    $w: 290px;
+                    width: $w;
+                    height: $p120;
+                    padding: 0;
+                    margin: 0;
+                    .img-cart {
+                        width: $w / 3;
+                        height: $p120;
+                        position: relative;
+                        float: left;
+                        img {
+                            @include align-center();
+                        }
+                    }
+                    .cart-item {
+                        width: $w - $w/2;
+                        height: $p120;
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+}
