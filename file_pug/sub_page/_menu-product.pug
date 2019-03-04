@@ -1,0 +1,45 @@
+.menu
+    .menu__info.active
+        i.fas.fa-bars
+        .text DANH MỤC SẢN PHẨM
+    each val in ['Máy in phun cỡ lớn','Máy quét Canon 3D','Máy hàn điện Alunima','Máy khoan Decameta','Máy phay đa năng CNC','Máy mài, tiện DC 12V','Máy khoan, cắt CNC','Máy quay thông minh N3','Motor R34C đa dụng','Máy in laser màu 3D']
+        .menu__info
+            i.fas.fa-th-large
+            .text= val
+.menu-price
+    .menu__info.active
+        i.fas.fa-dollar-sign
+        .text TÌM THEO MỨC GIÁ
+    each val in ['0 - 200.000 Đ (45)','200.000 Đ - 500.000 Đ (32)','500.000 Đ - 1.000.000 Đ (27)','1.000.000 Đ - 2.000.000 Đ (16)','Trên 2.000.000 Đ (9)']
+        .menu__info
+            i.fas.fa-th-large
+            .text= val
+.menu-color
+    .menu__info.active
+        i.fas.fa-paint-brush
+        .text TÌM THEO MÀU SẮC
+    mixin menu-color(cl,text)
+        .menu__info
+            div(class=cl)
+            .text= text
+    +menu-color('red','Màu đỏ (45)')
+    +menu-color('yellow','Màu vàng (32)')
+    +menu-color('blue','Màu xanh (27)')
+    +menu-color('silver','Màu bạc (16)')
+    +menu-color('black','Màu đen (9)')
+.menu-promotion
+    .menu__info.active
+        i.fas.fa-gift
+        .text SẢN PHẨM KHUYẾN MẠI
+    mixin menu-promotion(img,name,price)
+        .menu__info
+            .img
+                img(src=img)
+            .text2
+                .name= name
+                .price= price
+    +menu-promotion('../build/images/34.jpg','Máy khoan Black Decker loại 1','1.550.000 Đ')
+    +menu-promotion('../build/images/10.jpg','Máy khoan Black Decker loại 1','1.550.000 Đ')
+    +menu-promotion('../build/images/9.jpg','Máy khoan Black Decker loại 1','1.550.000 Đ')
+    +menu-promotion('../build/images/14.jpg','Máy khoan Black Decker loại 1','1.550.000 Đ')
+    +menu-promotion('../build/images/35.jpg','Máy khoan Black Decker loại 1','1.550.000 Đ')

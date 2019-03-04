@@ -1,0 +1,52 @@
+doctype html
+head
+    // Required meta tags
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    // Bootstrap CSS
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css' integrity='sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA' crossorigin='anonymous')
+    // Font Awesome CDN
+    link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/", crossorigin="anonymous")
+    // Link CSS
+    link(rel="stylesheet", href="../build/homepage.css")
+    title Đăng nhập
+body
+
+    mixin form(text)
+        p= text
+        i *
+        input(type="text")
+
+    include ../file_pug/sub_page/_header.pug
+    
+    .container.signin
+        .breadcrumb
+            li.breadcrumb-item
+                a(href="") Trang chủ
+            i.fas.fa-caret-right
+            li.breadcrumb-item.active Đăng nhập
+        .signin__left
+            h3 THÔNG TIN ĐĂNG NHẬP
+            .form
+                +form("Họ và tên: ")
+            .form
+                +form("Email: ")
+            .tick
+                input(type='checkbox')
+                |  Ghi nhớ đăng nhập
+            .button
+                button ĐĂNG NHẬP
+        .signin__right
+            h3 BẠN CHƯA CÓ TÀI KHOẢN
+            .text Đăng ký tài khoản để mua hàng nhanh hơn. Theo dõi đơn đặt hàng, vận chuyển. Cập nhật các tin tức sự kiện và chương trình giảm giá của chúng tôi.
+            .button
+                button ĐĂNG KÍ
+        .clearfix
+
+    include ../file_pug/sub_page/_footer.pug
+    
+    // Optional JavaScript
+    // jQuery first, then Popper.js, then Bootstrap JS
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous')
