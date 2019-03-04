@@ -1,0 +1,38 @@
+mixin menu-active(text)
+    i.fas.fa-bars
+    .text= text  
+mixin menu(text)
+    i.fas.fa-th-large
+    .text= text 
+.blog__menu__prod
+    .menu__info.active
+        +menu-active('DANH MỤC SẢN PHẨM')  
+    each val in ['Máy in phun cỡ lớn','Máy quét Canon 3D','Máy hàn điện Alunima','Máy khoan Decameta','Máy phay đa năng CNC','Máy mài, tiện DC 12V','Máy khoan, cắt CNC','Máy quay thông minh N3','Motor R34C đa dụng','Máy in laser màu 3D']
+        .menu__info
+            +menu(val)
+.blog__menu__news
+    .title
+        i.fas.fa-th-large
+        .text DANH MỤC TIN TỨC
+    each val in ['Đời sống pháp luật (5)', "Kinh tế trong nước (8)", "Sức khỏe và gia đình (9)", "Công nghệ thông tin (5)", "Tin tức khác (12)"]
+        li= val
+.blog__menu__img
+    .title
+        i.fas.fa-th-large
+        .text THƯ VIỆN HÌNH ẢNH
+    mixin img(link1,link2,link3)
+        .row
+            each val in [link1,link2,link3]
+                .col-4
+                    img(src=val)
+    +img("../images/40.jpg","../images/41.jpg","../images/42.jpg")                    
+    +img("../images/43.jpg","../images/44.jpg","../images/45.jpg")
+.blog__menu__tags
+    .title
+        i.fas.fa-th-large
+        .text THẺ TAGS
+    mixin tags(tag)
+        a(href="")
+        button= tag
+    each val in ['thời trang','máy khoan','news','công nghiệp','xây dựng','phay','máy cắt','hóa chất']
+        +tags(val)
