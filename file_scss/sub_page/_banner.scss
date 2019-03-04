@@ -1,0 +1,77 @@
+.banner {
+    .container {
+        padding: $p30 $p0;
+        .row {
+            .slide {
+                padding: 0;
+                .carousel-indicators {
+                    li {
+                        width: $p10;
+                        height: $p10;
+                        background: #a1a1a1;
+                        border: $p1;
+                        margin-bottom: $p30;
+                        &.active {
+                            background: $gray-900;
+                        }
+                    }
+                }
+                .carousel-inner {
+                    img {
+                        width: $pc100;
+                        height: $pc100;
+                    }
+                }
+            }
+            .banner__right {
+                $h: 496.66px;
+                padding: 0;
+                .banner__right__content {
+                    height: $h/4;
+                }
+                .banner__right__content {
+                    border: $p1 solid $gray-border;
+                    position: relative;
+                    height: $pc25;
+                    .row {
+                        @include align-center;
+                        position: relative;
+                        .icon {
+                            position: relative;
+                            color: $yellow;
+                            .fas {
+                                @include align-center;
+                                font-size: 22px;
+                            }
+                        }
+                        .text {
+                            padding: 0;
+                            .title {
+                                color: $black-text;
+                                font-size: $p16;
+                                font-weight: bold;
+                                margin-bottom: 7px;
+                            }
+                            p {
+                                font-size: $p13;
+                            }
+                        }
+                    }
+                    &:hover {
+                        color: $white;
+                        background: $yellow;
+                        transition: all .5s;
+                        .row .text .title {
+                            color: $white;
+                            transition: all .5s;
+                        }
+                        .row .icon {
+                            color: $white;
+                            transition: all .5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

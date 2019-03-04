@@ -1,0 +1,44 @@
+.spons {
+    background: $gray-bg;
+    height: 170px;
+    position: relative;
+    .spons__content {
+        @include align-center;
+        .spons__content__img {
+            width: 20%;
+            float: left;
+            text-align: center;
+            margin-top: 3%;
+        }
+    }
+}
+
+.email {
+    text-align: center;
+    background: url(../build/images/25.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding: $p60 0;
+    .text {
+        color: $white;
+        font-size: 24px;
+        margin-bottom: $p30;
+    }
+    input {
+        height: $p40;
+        width: 45%;
+        border-radius: $p20;
+        border: none;
+        font-size: 16px;
+        padding: 0 $p20;
+    }
+    button {
+        @extend input;
+        width: max-content;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 0 $p50;
+        background: $yellow;
+        color: $white;
+        margin-left: $p10;
+    }
+}

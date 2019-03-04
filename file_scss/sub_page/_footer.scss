@@ -1,0 +1,148 @@
+.contact {
+    background: $gray-bg;
+    padding: $p60 0;
+    .container {
+        padding: 0;
+        .contact__top {
+            color: $gray-700;
+            .contact__top__content {
+                padding: 0;
+                @include title();
+                .text {
+                    width: $pc100;
+                    float: left;
+                    padding: $p30 0;
+                    font-size: $p13;
+                }
+                .icon {
+                    width: $pc100;
+                    float: left;
+                    .fas {
+                        width: $pc10;
+                        float: left;
+                        padding-top: $p5;
+                    }
+                    .text {
+                        width: $pc90;
+                        float: left;
+                        padding: 0;
+                    }
+                }
+            }
+            .contact__top__content {
+                @include title();
+                @include clear;
+                font-size: $p13;
+                list-style: none;
+                li {
+                    width: $pc100;
+                    float: left;
+                    margin-top: $p20;
+                    .fab {
+                        width: $pc10;
+                        float: left;
+                        padding-top: $p5;
+                    }
+                    div {
+                        width: $pc90;
+                        float: left;
+                        padding: 0;
+                    }
+                }
+                &.first {
+                    padding-right: $p30 !important;
+                }
+            }
+        }
+        .contact__bottom {
+            @extend .contact__top;
+            .contact__bottom__left {
+                padding: 0 $p30 0 0;
+                font-size: $p13;
+                margin: $p20 0;
+                .img {
+                    float: left;
+                    margin: $p10 0;
+                    img {
+                        width: $pc100;
+                    }
+                }
+            }
+            .contact__bottom__right {
+                @extend .contact__bottom__left;
+                padding: 0;
+                .title {
+                    margin-bottom: 35px;
+                }
+                .content {
+                    @include clear;
+                    float: left;
+                    .icon {
+                        width: $p60;
+                        height: $p60;
+                        float: left;
+                        color: $yellow;
+                        border: 2px solid $yellow;
+                        border-radius: $pc50;
+                        position: relative;
+                        font-size: $p20;
+                        i {
+                            @include align-center;
+                        }
+                    }
+                    .wrap-text {
+                        width: max-content;
+                        height: $p60;
+                        padding: $p5 0 0 $p10;
+                        float: left;
+                        .text {
+                            .text-bottom {
+                                font-size: $p18;
+                                color: $red;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background: $black-bg;
+    color: $gray-600;
+    font-size: $p13;
+    height: $p60;
+    .footer__left {
+        width: $pc50;
+        height: $p60;
+        float: left;
+        position: relative;
+        .copyright {
+            @include align-center;
+            left: auto;
+            transform: translate($pc0, -$pc50);
+            b {
+                color: $white;
+            }
+        }
+    }
+    .footer__right {
+        @extend .footer__left;
+        position: relative;
+        ul {
+            @include clear;
+            @include align-center;
+            list-style: none;
+            width: max-content;
+            float: right;
+            li {
+                color: $gray-600;
+                width: max-content;
+                float: left;
+                padding: 0 $p10;
+            }
+        }
+    }
+}

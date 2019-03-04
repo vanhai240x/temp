@@ -1,0 +1,31 @@
+.banner
+    .container
+        .row
+            .col-8.slide
+                #banner.carousel.slide(data-ride='carousel')
+                    // Indicators
+                    ul.carousel-indicators
+                        li.active(data-target='#demo' data-slide-to='0')
+                        li(data-target='#demo' data-slide-to='1')
+                        li(data-target='#demo' data-slide-to='2')
+                    // The slideshow
+                    .carousel-inner
+                        mixin carousel(link,cl)
+                           .carousel-item(class=cl)
+                                img(src=link) 
+                        +carousel('../build/images/2.jpg','active')
+                        +carousel('../build/images/2.jpg')
+                        +carousel('../build/images/2.jpg')
+            .col-4.banner__right
+                mixin banner-right(cl,title,p)
+                    .banner__right__content
+                        .row
+                            .col-2.icon
+                                i.fas(class=cl)
+                            .col-10.text
+                                h5.title= title
+                                p= p
+                +banner-right('fa-plane','MIỄN PHÍ VẬN CHUYỂN','Chúng tôi vận chuyển miễn phí với các đơn hàng trị giá trên 1.000.000 Đ')
+                +banner-right('fa-sync-alt','CHÍNH SÁCH ĐỔI TRẢ','Nếu phất hiện lỗi của nhà sản xuất, chúng tôi sẽ đổi mới sản phẩm trong 7 ngày đầu tiên')
+                +banner-right('fa-gift','KHUYẾN MẠI HÀNG TUẦN','Mỗi thứ 7 hàng tuần đều có chương trình giảm giá và khuyến mại lớn')
+                +banner-right('fa-thumbs-up','CAM KẾT HÀNG CHÍNH HÃNG','Chúng tôi cam kết bán hàng chính hãng 100% với tất cả các loại sản phẩm')
