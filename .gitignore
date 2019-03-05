@@ -3,4 +3,10 @@ build
 file_pug/homepage.html
 file_pug/product.html
 file_pug/product-grid.html
+file_pug/detail.html
 file_pug/blog.html
+file_pug/blog-detail.html
+file_pug/signin.html
+file_pug/signup.html
+file_pug/cart.html
+file_pug/errorpage.html

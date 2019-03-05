@@ -17,7 +17,7 @@ button {
   button:active, button:focus, button:hover {
     outline: none !important; }
 
-input:active, .email button:active, input:focus, .email button:focus, input:hover, .email button:hover,
+input:active, .email button:active, .content__right .content__right__top .content .button button:active, input:focus, .email button:focus, .content__right .content__right__top .content .button button:focus, input:hover, .email button:hover, .content__right .content__right__top .content .button button:hover,
 textarea:active,
 textarea:focus,
 textarea:hover,
@@ -129,7 +129,7 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%; }
-    .header .header__center .header__center__search div input, .header .header__center .header__center__search div .email button, .email .header .header__center .header__center__search div button {
+    .header .header__center .header__center__search div input, .header .header__center .header__center__search div .email button, .email .header .header__center .header__center__search div button, .header .header__center .header__center__search div .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .header .header__center .header__center__search div button {
       width: 100%;
       height: 50px;
       border: 1px solid #e1e1e1;
@@ -287,7 +287,7 @@ ul {
             font-size: 22px; }
         .banner .container .row .banner__right .banner__right__content .row .text {
           padding: 0; }
-          .banner .container .row .banner__right .banner__right__content .row .text .title {
+          .banner .container .row .banner__right .banner__right__content .row .text .title, .banner .container .row .banner__right .banner__right__content .row .text .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .banner .container .row .banner__right .banner__right__content .row .text li, .banner .container .row .banner__right .banner__right__content .row .text .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .banner .container .row .banner__right .banner__right__content .row .text li, .banner .container .row .banner__right .banner__right__content .row .text .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .banner .container .row .banner__right .banner__right__content .row .text li {
             color: #111111;
             font-size: 16px;
             font-weight: bold;
@@ -298,7 +298,7 @@ ul {
         color: #fff;
         background: #f5bd10;
         transition: all .5s; }
-        .banner .container .row .banner__right .banner__right__content:hover .row .text .title {
+        .banner .container .row .banner__right .banner__right__content:hover .row .text .title, .banner .container .row .banner__right .banner__right__content:hover .row .text .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .banner .container .row .banner__right .banner__right__content:hover .row .text li, .banner .container .row .banner__right .banner__right__content:hover .row .text .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .banner .container .row .banner__right .banner__right__content:hover .row .text li, .banner .container .row .banner__right .banner__right__content:hover .row .text .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .banner .container .row .banner__right .banner__right__content:hover .row .text li {
           color: #fff;
           transition: all .5s; }
         .banner .container .row .banner__right .banner__right__content:hover .row .icon {
@@ -384,7 +384,7 @@ ul {
         font-size: 14px;
         font-weight: bold;
         margin: 5px 0; }
-      .container .prod-featured .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .name, .container .prod-new .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .name, .container .prod-sell .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .name, .container .prod-new-arrive .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .name {
+      .container .prod-featured .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .name, .container .prod-new .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .name, .container .prod-sell .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .name, .container .prod-new-arrive .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .name, .container .prod-featured .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-featured .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .price, .container .prod-new .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-new .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .price, .container .prod-sell .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-sell .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .price, .container .prod-new-arrive .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-new-arrive .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .price, .container .prod-featured .prod-featured__bottom .blog-detail .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-featured .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-featured .prod-featured__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .email2, .blog-detail .container .prod-featured .prod-featured__bottom .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .email2, .container .prod-new .prod-featured__bottom .blog-detail .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-new .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-new .prod-featured__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .email2, .blog-detail .container .prod-new .prod-featured__bottom .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .email2, .container .prod-sell .prod-featured__bottom .blog-detail .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-sell .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-sell .prod-featured__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .email2, .blog-detail .container .prod-sell .prod-featured__bottom .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .email2, .container .prod-new-arrive .prod-featured__bottom .blog-detail .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-new-arrive .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-new-arrive .prod-featured__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .email2, .blog-detail .container .prod-new-arrive .prod-featured__bottom .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .email2, .container .prod-featured .prod-featured__bottom .blog-detail .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-featured .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-featured .prod-featured__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .comment, .blog-detail .container .prod-featured .prod-featured__bottom .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .comment, .container .prod-new .prod-featured__bottom .blog-detail .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-new .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-new .prod-featured__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .comment, .blog-detail .container .prod-new .prod-featured__bottom .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .comment, .container .prod-sell .prod-featured__bottom .blog-detail .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-sell .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-sell .prod-featured__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .comment, .blog-detail .container .prod-sell .prod-featured__bottom .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .comment, .container .prod-new-arrive .prod-featured__bottom .blog-detail .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-new-arrive .prod-featured__bottom .row .prod .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-new-arrive .prod-featured__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .comment, .blog-detail .container .prod-new-arrive .prod-featured__bottom .row .col-9.blog__content .blog__content__form .prod .row .prod__detail .wrap-content .comment {
         font-size: 14px;
         font-weight: bold;
         color: #202020;
@@ -455,7 +455,7 @@ ul {
       font-size: 14px;
       font-weight: bold;
       margin: 5px 0; }
-    .container .prod-new .prod-new__bottom .row .prod__detail .wrap-content .name, .container .prod-sell .prod-new__bottom .row .prod__detail .wrap-content .name {
+    .container .prod-new .prod-new__bottom .row .prod__detail .wrap-content .name, .container .prod-sell .prod-new__bottom .row .prod__detail .wrap-content .name, .container .prod-new .prod-new__bottom .row .prod__detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-new .prod-new__bottom .row .prod__detail .wrap-content .price, .container .prod-sell .prod-new__bottom .row .prod__detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-sell .prod-new__bottom .row .prod__detail .wrap-content .price, .container .prod-new .prod-new__bottom .blog-detail .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-new .prod-new__bottom .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-new .prod-new__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .email2, .blog-detail .container .prod-new .prod-new__bottom .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .email2, .container .prod-sell .prod-new__bottom .blog-detail .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-sell .prod-new__bottom .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-sell .prod-new__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .email2, .blog-detail .container .prod-sell .prod-new__bottom .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .email2, .container .prod-new .prod-new__bottom .blog-detail .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-new .prod-new__bottom .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-new .prod-new__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .comment, .blog-detail .container .prod-new .prod-new__bottom .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .comment, .container .prod-sell .prod-new__bottom .blog-detail .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-sell .prod-new__bottom .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-sell .prod-new__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .comment, .blog-detail .container .prod-sell .prod-new__bottom .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .comment {
       font-size: 14px;
       font-weight: bold;
       color: #202020;
@@ -519,7 +519,7 @@ ul {
         font-size: 14px;
         font-weight: bold;
         margin: 5px 0; }
-      .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__left .prod-detail .wrap-content .name {
+      .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__left .prod-detail .wrap-content .name, .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__left .prod-detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-sell .prod-sell__bottom .row .prod-sell__bottom__left .prod-detail .wrap-content .price, .container .prod-sell .prod-sell__bottom .blog-detail .row .prod-sell__bottom__left .prod-detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__left .prod-detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-sell .prod-sell__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod-sell__bottom__left .prod-detail .wrap-content .email2, .blog-detail .container .prod-sell .prod-sell__bottom .row .col-9.blog__content .blog__content__form .prod-sell__bottom__left .prod-detail .wrap-content .email2, .container .prod-sell .prod-sell__bottom .blog-detail .row .prod-sell__bottom__left .prod-detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__left .prod-detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-sell .prod-sell__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod-sell__bottom__left .prod-detail .wrap-content .comment, .blog-detail .container .prod-sell .prod-sell__bottom .row .col-9.blog__content .blog__content__form .prod-sell__bottom__left .prod-detail .wrap-content .comment {
         font-size: 14px;
         font-weight: bold;
         color: #202020;
@@ -572,7 +572,7 @@ ul {
       font-size: 14px;
       font-weight: bold;
       margin: 5px 0; }
-    .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__center .prod-detail .wrap-content .name {
+    .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__center .prod-detail .wrap-content .name, .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__center .prod-detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-sell .prod-sell__bottom .row .prod-sell__bottom__center .prod-detail .wrap-content .price, .container .prod-sell .prod-sell__bottom .blog-detail .row .prod-sell__bottom__center .prod-detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__center .prod-detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-sell .prod-sell__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod-sell__bottom__center .prod-detail .wrap-content .email2, .blog-detail .container .prod-sell .prod-sell__bottom .row .col-9.blog__content .blog__content__form .prod-sell__bottom__center .prod-detail .wrap-content .email2, .container .prod-sell .prod-sell__bottom .blog-detail .row .prod-sell__bottom__center .prod-detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__center .prod-detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-sell .prod-sell__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod-sell__bottom__center .prod-detail .wrap-content .comment, .blog-detail .container .prod-sell .prod-sell__bottom .row .col-9.blog__content .blog__content__form .prod-sell__bottom__center .prod-detail .wrap-content .comment {
       font-size: 14px;
       font-weight: bold;
       color: #202020;
@@ -637,7 +637,7 @@ ul {
         font-size: 14px;
         font-weight: bold;
         margin: 5px 0; }
-      .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__right .prod-detail .wrap-content .name {
+      .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__right .prod-detail .wrap-content .name, .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__right .prod-detail .wrap-content .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .prod-sell .prod-sell__bottom .row .prod-sell__bottom__right .prod-detail .wrap-content .price, .container .prod-sell .prod-sell__bottom .blog-detail .row .prod-sell__bottom__right .prod-detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__right .prod-detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .prod-sell .prod-sell__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod-sell__bottom__right .prod-detail .wrap-content .email2, .blog-detail .container .prod-sell .prod-sell__bottom .row .col-9.blog__content .blog__content__form .prod-sell__bottom__right .prod-detail .wrap-content .email2, .container .prod-sell .prod-sell__bottom .blog-detail .row .prod-sell__bottom__right .prod-detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-sell .prod-sell__bottom .row .prod-sell__bottom__right .prod-detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .prod-sell .prod-sell__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod-sell__bottom__right .prod-detail .wrap-content .comment, .blog-detail .container .prod-sell .prod-sell__bottom .row .col-9.blog__content .blog__content__form .prod-sell__bottom__right .prod-detail .wrap-content .comment {
         font-size: 14px;
         font-weight: bold;
         color: #202020;
@@ -684,15 +684,15 @@ ul {
     padding: 15px 15px 0px 15px;
     width: 97%;
     margin-bottom: 5%; }
-    .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .img {
+    .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .img, .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .content .content__right .content__right__content .detail .info, .container .content .content__right .content__right__content .detail .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .info, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .prod-detail2 .wrap .col-9.blog__content .blog__content__cmt .cmt1 .content, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .col-9.blog__content .blog__content__cmt .cmt1 .content, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .prod-detail2 .wrap .content, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .col-9.blog__content .blog__content__cmt .cmt1 .prod-detail2 .wrap .content, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .prod-detail2 .wrap .col-9.blog__content .blog__content__form .cmt1 .content, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .col-9.blog__content .blog__content__form .cmt1 .content, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .prod-detail2 .wrap .content, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .col-9.blog__content .blog__content__form .cmt1 .prod-detail2 .wrap .content {
       padding: 0;
       margin: 0;
       float: left; }
-      .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .img img {
+      .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .img img, .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .content .content__right .content__right__content .detail .info img, .container .content .content__right .content__right__content .detail .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .info img, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .prod-detail2 .wrap .col-9.blog__content .blog__content__cmt .cmt1 .content img, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .col-9.blog__content .blog__content__cmt .cmt1 .content img, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .prod-detail2 .wrap .content img, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .col-9.blog__content .blog__content__cmt .cmt1 .prod-detail2 .wrap .content img, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .prod-detail2 .wrap .col-9.blog__content .blog__content__form .cmt1 .content img, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .col-9.blog__content .blog__content__form .cmt1 .content img, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .prod-detail2 .wrap .content img, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .col-9.blog__content .blog__content__form .cmt1 .prod-detail2 .wrap .content img {
         width: 90%; }
     .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .content {
       float: right; }
-      .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .content .name {
+      .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .content .name, .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .content .content__left .menu-promotion .menu__info .text2 .price, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .prod-detail2 .wrap .content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .content .col-9.blog__content .blog__content__form .email2, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod-detail2 .wrap .content .email2, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .col-9.blog__content .blog__content__form .prod-detail2 .wrap .content .email2, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .prod-detail2 .wrap .content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .prod-detail2 .wrap .content .col-9.blog__content .blog__content__form .comment, .container .prod-new-arrive .prod-new-arrive__bottom .blog-detail .row .col-9.blog__content .blog__content__form .prod-detail2 .wrap .content .comment, .blog-detail .container .prod-new-arrive .prod-new-arrive__bottom .row .col-9.blog__content .blog__content__form .prod-detail2 .wrap .content .comment {
         font-size: 14px;
         font-weight: bold;
         color: #202020;
@@ -763,7 +763,7 @@ ul {
     color: #fff;
     font-size: 24px;
     margin-bottom: 30px; }
-  .email input, .email button {
+  .email input, .email button, .email .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .email button {
     height: 40px;
     width: 45%;
     border-radius: 20px;
@@ -794,7 +794,7 @@ ul {
           float: left;
           font-size: 12px;
           padding-top: 7px; }
-        .contact .container .contact__top .contact__top__content .title, .contact .container .contact__bottom .contact__top__content .title {
+        .contact .container .contact__top .contact__top__content .title, .contact .container .contact__bottom .contact__top__content .title, .contact .container .contact__top .contact__top__content .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .contact .container .contact__top .contact__top__content li, .contact .container .contact__bottom .contact__top__content .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .contact .container .contact__bottom .contact__top__content li, .contact .container .contact__top .contact__top__content .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .contact .container .contact__top .contact__top__content li, .contact .container .contact__bottom .contact__top__content .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .contact .container .contact__bottom .contact__top__content li, .contact .container .contact__top .contact__top__content .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .contact .container .contact__top .contact__top__content li, .contact .container .contact__bottom .contact__top__content .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .contact .container .contact__bottom .contact__top__content li {
           font-size: 16px;
           color: #252525;
           font-weight: bold;
@@ -827,7 +827,7 @@ ul {
           float: left;
           font-size: 12px;
           padding-top: 7px; }
-        .contact .container .contact__top .contact__top__content .title, .contact .container .contact__bottom .contact__top__content .title {
+        .contact .container .contact__top .contact__top__content .title, .contact .container .contact__bottom .contact__top__content .title, .contact .container .contact__top .contact__top__content .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .contact .container .contact__top .contact__top__content li, .contact .container .contact__bottom .contact__top__content .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .contact .container .contact__bottom .contact__top__content li, .contact .container .contact__top .contact__top__content .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .contact .container .contact__top .contact__top__content li, .contact .container .contact__bottom .contact__top__content .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .contact .container .contact__bottom .contact__top__content li, .contact .container .contact__top .contact__top__content .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .contact .container .contact__top .contact__top__content li, .contact .container .contact__bottom .contact__top__content .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .contact .container .contact__bottom .contact__top__content li {
           font-size: 16px;
           color: #252525;
           font-weight: bold;
@@ -851,14 +851,14 @@ ul {
       padding: 0 30px 0 0;
       font-size: 13px;
       margin: 20px 0; }
-      .contact .container .contact__bottom .contact__bottom__left .img, .contact .container .contact__bottom .contact__bottom__right .img {
+      .contact .container .contact__bottom .contact__bottom__left .img, .contact .container .contact__bottom .contact__bottom__right .img, .contact .container .contact__bottom .contact__bottom__left .content .content__right .content__right__content .detail .info, .contact .container .content .content__right .content__right__content .detail .contact__bottom .contact__bottom__left .info, .contact .container .contact__bottom .contact__bottom__right .content .content__right .content__right__content .detail .info, .contact .container .content .content__right .content__right__content .detail .contact__bottom .contact__bottom__right .info, .contact .container .contact__bottom .contact__bottom__left .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .contact .container .contact__bottom .contact__bottom__left .content, .contact .container .contact__bottom .contact__bottom__right .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .contact .container .contact__bottom .contact__bottom__right .content, .contact .container .contact__bottom .contact__bottom__left .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .contact .container .contact__bottom .contact__bottom__left .content, .contact .container .contact__bottom .contact__bottom__right .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .contact .container .contact__bottom .contact__bottom__right .content {
         float: left;
         margin: 10px 0; }
-        .contact .container .contact__bottom .contact__bottom__left .img img, .contact .container .contact__bottom .contact__bottom__right .img img {
+        .contact .container .contact__bottom .contact__bottom__left .img img, .contact .container .contact__bottom .contact__bottom__right .img img, .contact .container .contact__bottom .contact__bottom__left .content .content__right .content__right__content .detail .info img, .contact .container .content .content__right .content__right__content .detail .contact__bottom .contact__bottom__left .info img, .contact .container .contact__bottom .contact__bottom__right .content .content__right .content__right__content .detail .info img, .contact .container .content .content__right .content__right__content .detail .contact__bottom .contact__bottom__right .info img, .contact .container .contact__bottom .contact__bottom__left .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .contact .container .contact__bottom .contact__bottom__left .content img, .contact .container .contact__bottom .contact__bottom__right .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .contact .container .contact__bottom .contact__bottom__right .content img, .contact .container .contact__bottom .contact__bottom__left .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .contact .container .contact__bottom .contact__bottom__left .content img, .contact .container .contact__bottom .contact__bottom__right .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .contact .container .contact__bottom .contact__bottom__right .content img {
           width: 100%; }
     .contact .container .contact__bottom .contact__bottom__right {
       padding: 0; }
-      .contact .container .contact__bottom .contact__bottom__right .title {
+      .contact .container .contact__bottom .contact__bottom__right .title, .contact .container .contact__bottom .contact__bottom__right .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .contact .container .contact__bottom .contact__bottom__right li, .contact .container .contact__bottom .contact__bottom__right .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .contact .container .contact__bottom .contact__bottom__right li, .contact .container .contact__bottom .contact__bottom__right .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .contact .container .contact__bottom .contact__bottom__right li {
         margin-bottom: 35px; }
       .contact .container .contact__bottom .contact__bottom__right .content {
         padding: 0;
@@ -924,5 +924,1022 @@ ul {
         width: max-content;
         float: left;
         padding: 0 10px; }
+
+.container {
+  padding: 0; }
+  .container .breadcrumb {
+    padding: 30px 0;
+    background: none; }
+    .container .breadcrumb .breadcrumb-item {
+      padding-right: 10px;
+      color: #898989; }
+      .container .breadcrumb .breadcrumb-item a {
+        color: #898989; }
+      .container .breadcrumb .breadcrumb-item.active {
+        color: #363636; }
+    .container .breadcrumb .fas {
+      color: #898989;
+      padding-right: 10px;
+      padding-top: 5px; }
+  .container .content .content__left {
+    padding: 0;
+    margin: 0;
+    float: left;
+    padding-right: 30px; }
+    .container .content .content__left > [class*="menu"] {
+      margin-bottom: 30px; }
+    .container .content .content__left .menu {
+      padding: 0;
+      box-shadow: 0px 0px 4px 0px #00000033; }
+      .container .content .content__left .menu .menu__info {
+        height: 60px;
+        padding-top: 18px;
+        font-size: 13px;
+        border-top: 1px solid #e1e1e1;
+        border-left: 1px solid #e1e1e1;
+        border-right: 1px solid #e1e1e1; }
+        .container .content .content__left .menu .menu__info:last-child {
+          border-bottom: 1px solid #e1e1e1; }
+        .container .content .content__left .menu .menu__info.active, .container .content .content__left .menu .menu__info:hover {
+          background: #202020;
+          transition: .5s; }
+          .container .content .content__left .menu .menu__info.active .fas,
+          .container .content .content__left .menu .menu__info.active .text, .container .content .content__left .menu .menu__info:hover .fas,
+          .container .content .content__left .menu .menu__info:hover .text {
+            color: #f5bd10; }
+        .container .content .content__left .menu .menu__info .fas {
+          width: 15%;
+          height: 60px;
+          color: #898989;
+          font-size: 12px;
+          float: left;
+          padding: 5px 20px; }
+        .container .content .content__left .menu .menu__info .text {
+          float: left;
+          color: #898989; }
+    .container .content .content__left .menu-price {
+      padding: 0;
+      box-shadow: 0px 0px 4px 0px #00000033; }
+      .container .content .content__left .menu-price .menu__info {
+        height: 60px;
+        padding-top: 18px;
+        font-size: 13px;
+        border-top: 1px solid #e1e1e1;
+        border-left: 1px solid #e1e1e1;
+        border-right: 1px solid #e1e1e1; }
+        .container .content .content__left .menu-price .menu__info:last-child {
+          border-bottom: 1px solid #e1e1e1; }
+        .container .content .content__left .menu-price .menu__info.active, .container .content .content__left .menu-price .menu__info:hover {
+          background: #202020;
+          transition: .5s; }
+          .container .content .content__left .menu-price .menu__info.active .fas,
+          .container .content .content__left .menu-price .menu__info.active .text, .container .content .content__left .menu-price .menu__info:hover .fas,
+          .container .content .content__left .menu-price .menu__info:hover .text {
+            color: #f5bd10; }
+        .container .content .content__left .menu-price .menu__info .fas {
+          width: 15%;
+          height: 60px;
+          color: #898989;
+          font-size: 12px;
+          float: left;
+          padding: 5px 20px; }
+        .container .content .content__left .menu-price .menu__info .text {
+          float: left;
+          color: #898989; }
+    .container .content .content__left .menu-color {
+      padding: 0;
+      box-shadow: 0px 0px 4px 0px #00000033; }
+      .container .content .content__left .menu-color .menu__info {
+        height: 60px;
+        padding-top: 18px;
+        font-size: 13px;
+        border-top: 1px solid #e1e1e1;
+        border-left: 1px solid #e1e1e1;
+        border-right: 1px solid #e1e1e1; }
+        .container .content .content__left .menu-color .menu__info:last-child {
+          border-bottom: 1px solid #e1e1e1; }
+        .container .content .content__left .menu-color .menu__info.active, .container .content .content__left .menu-color .menu__info:hover {
+          background: #202020;
+          transition: .5s; }
+          .container .content .content__left .menu-color .menu__info.active .fas,
+          .container .content .content__left .menu-color .menu__info.active .text, .container .content .content__left .menu-color .menu__info:hover .fas,
+          .container .content .content__left .menu-color .menu__info:hover .text {
+            color: #f5bd10; }
+        .container .content .content__left .menu-color .menu__info .fas {
+          width: 15%;
+          height: 60px;
+          color: #898989;
+          font-size: 12px;
+          float: left;
+          padding: 5px 20px; }
+        .container .content .content__left .menu-color .menu__info .text {
+          float: left;
+          color: #898989; }
+      .container .content .content__left .menu-color .menu__info .red, .container .content .content__left .menu-color .menu__info .yellow, .container .content .content__left .menu-color .menu__info .blue, .container .content .content__left .menu-color .menu__info .silver, .container .content .content__left .menu-color .menu__info .black {
+        width: 18px;
+        height: 18px;
+        background: #e61010;
+        float: left;
+        margin: 2px 15px; }
+      .container .content .content__left .menu-color .menu__info .yellow {
+        background: #f5bd10; }
+      .container .content .content__left .menu-color .menu__info .blue {
+        background: #0685ca; }
+      .container .content .content__left .menu-color .menu__info .silver {
+        background: #acacac; }
+      .container .content .content__left .menu-color .menu__info .black {
+        background: #252525; }
+    .container .content .content__left .menu-promotion {
+      padding: 0;
+      box-shadow: 0px 0px 4px 0px #00000033; }
+      .container .content .content__left .menu-promotion .menu__info {
+        height: 60px;
+        padding-top: 18px;
+        font-size: 13px;
+        border-top: 1px solid #e1e1e1;
+        border-left: 1px solid #e1e1e1;
+        border-right: 1px solid #e1e1e1; }
+        .container .content .content__left .menu-promotion .menu__info:last-child {
+          border-bottom: 1px solid #e1e1e1; }
+        .container .content .content__left .menu-promotion .menu__info.active, .container .content .content__left .menu-promotion .menu__info:hover {
+          background: #202020;
+          transition: .5s; }
+          .container .content .content__left .menu-promotion .menu__info.active .fas,
+          .container .content .content__left .menu-promotion .menu__info.active .text, .container .content .content__left .menu-promotion .menu__info:hover .fas,
+          .container .content .content__left .menu-promotion .menu__info:hover .text {
+            color: #f5bd10; }
+        .container .content .content__left .menu-promotion .menu__info .fas {
+          width: 15%;
+          height: 60px;
+          color: #898989;
+          font-size: 12px;
+          float: left;
+          padding: 5px 20px; }
+        .container .content .content__left .menu-promotion .menu__info .text {
+          float: left;
+          color: #898989; }
+      .container .content .content__left .menu-promotion .menu__info {
+        height: 120px;
+        padding-top: 0;
+        clear: both; }
+        .container .content .content__left .menu-promotion .menu__info .img, .container .content .content__left .menu-promotion .menu__info .content__right .content__right__content .detail .info, .container .content .content__right .content__right__content .detail .content__left .menu-promotion .menu__info .info, .container .content .content__left .menu-promotion .menu__info .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .container .content .content__left .menu-promotion .menu__info .content, .container .content .content__left .menu-promotion .menu__info .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .container .content .content__left .menu-promotion .menu__info .content {
+          position: relative;
+          width: 40%;
+          height: 120px;
+          float: left; }
+          .container .content .content__left .menu-promotion .menu__info .img img, .container .content .content__left .menu-promotion .menu__info .content__right .content__right__content .detail .info img, .container .content .content__right .content__right__content .detail .content__left .menu-promotion .menu__info .info img, .container .content .content__left .menu-promotion .menu__info .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .container .content .content__left .menu-promotion .menu__info .content img, .container .content .content__left .menu-promotion .menu__info .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .container .content .content__left .menu-promotion .menu__info .content img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%; }
+        .container .content .content__left .menu-promotion .menu__info .text2 {
+          width: 60%;
+          float: right;
+          margin-top: 25px; }
+          .container .content .content__left .menu-promotion .menu__info .text2 .name, .container .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .email2, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .email2, .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .comment, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .comment {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase; }
+          .container .content .content__left .menu-promotion .menu__info .text2 .price {
+            color: #ff0000;
+            margin-top: 5px; }
+        .container .content .content__left .menu-promotion .menu__info.active {
+          height: 60px; }
+          .container .content .content__left .menu-promotion .menu__info.active .fas {
+            padding-top: 22px; }
+          .container .content .content__left .menu-promotion .menu__info.active .text {
+            padding-top: 18px; }
+        .container .content .content__left .menu-promotion .menu__info:hover {
+          background: none; }
+  .container .content .content__right {
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-bottom: 30px; }
+    .container .content .content__right .content__right__header {
+      font-size: 14px;
+      color: #202020;
+      height: 60px;
+      border-bottom: 1px solid #e1e1e1;
+      padding-top: 10px; }
+      .container .content .content__right .content__right__header p {
+        float: left;
+        margin-right: 10px;
+        padding-top: 5px; }
+      .container .content .content__right .content__right__header select {
+        float: left;
+        margin-right: 30px;
+        padding: 5px 50px 5px 5px;
+        color: #898989;
+        border: 1px solid #cccccc; }
+      .container .content .content__right .content__right__header .icon {
+        float: right; }
+        .container .content .content__right .content__right__header .icon .fas {
+          border: 1px solid #cccccc;
+          color: #202020;
+          padding: 10px;
+          margin-left: 5px;
+          font-size: 16px; }
+          .container .content .content__right .content__right__header .icon .fas.active {
+            color: #f5bd10; }
+    .container .content .content__right .content__right__content {
+      margin: 30px 0; }
+      .container .content .content__right .content__right__content .detail {
+        height: 250px;
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 4px 0px #00000033; }
+        .container .content .content__right .content__right__content .detail .img, .container .content .content__right .content__right__content .detail .info, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .container .content .content__right .content__right__content .detail .content, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .container .content .content__right .content__right__content .detail .content {
+          padding: 0;
+          margin: 0;
+          float: left; }
+          .container .content .content__right .content__right__content .detail .img img, .container .content .content__right .content__right__content .detail .info img, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .container .content .content__right .content__right__content .detail .content img, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .container .content .content__right .content__right__content .detail .content img {
+            width: 100%; }
+        .container .content .content__right .content__right__content .detail .info {
+          padding-right: 0;
+          padding-left: 3%;
+          padding: 3% 1%; }
+          .container .content .content__right .content__right__content .detail .info .wrap-content {
+            box-shadow: 0px 0px 4px 0px #00000033;
+            text-align: center;
+            padding: 6% 0; }
+            .container .content .content__right .content__right__content .detail .info .wrap-content img {
+              width: 55%;
+              margin: 5px 0; }
+            .container .content .content__right .content__right__content .detail .info .wrap-content .price {
+              color: #ff0000;
+              font-size: 14px;
+              font-weight: bold;
+              margin: 5px 0; }
+            .container .content .content__right .content__right__content .detail .info .wrap-content .name, .container .content .content__right .content__right__content .detail .info .wrap-content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .content__right .content__right__content .detail .info .wrap-content .price, .container .content .content__right .content__right__content .detail .info .wrap-content .blog-detail .row .col-9.blog__content .blog__content__form .email2, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__right .content__right__content .detail .info .wrap-content .email2, .container .content .content__right .content__right__content .detail .info .wrap-content .blog-detail .row .col-9.blog__content .blog__content__form .comment, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__right .content__right__content .detail .info .wrap-content .comment {
+              font-size: 14px;
+              font-weight: bold;
+              color: #202020;
+              text-transform: uppercase;
+              margin: 5px 0; }
+            .container .content .content__right .content__right__content .detail .info .wrap-content .vote {
+              font-size: 12px;
+              position: relative;
+              padding: 0 20%;
+              margin: 5px 0; }
+              .container .content .content__right .content__right__content .detail .info .wrap-content .vote .star {
+                float: left;
+                color: #f5bd10;
+                padding: 0 3px; }
+              .container .content .content__right .content__right__content .detail .info .wrap-content .vote .text {
+                float: left;
+                font-style: italic;
+                padding: 0 3px;
+                color: #898989; }
+            .container .content .content__right .content__right__content .detail .info .wrap-content .button {
+              visibility: hidden; }
+              .container .content .content__right .content__right__content .detail .info .wrap-content .button button {
+                background: #202020;
+                font-size: 12px;
+                font-weight: bold;
+                height: 40px;
+                width: 41%;
+                margin: 0 5px;
+                color: #fff; }
+                .container .content .content__right .content__right__content .detail .info .wrap-content .button button:hover {
+                  background: #f5bd10; }
+          .container .content .content__right .content__right__content .detail .info:hover .button {
+            visibility: inherit; }
+          .container .content .content__right .content__right__content .detail .info .name, .container .content .content__right .content__right__content .detail .info .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .content__right .content__right__content .detail .info .price, .container .content .content__right .content__right__content .detail .info .blog-detail .row .col-9.blog__content .blog__content__form .email2, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__right .content__right__content .detail .info .email2, .container .content .content__right .content__right__content .detail .info .blog-detail .row .col-9.blog__content .blog__content__form .comment, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__right .content__right__content .detail .info .comment {
+            font-size: 14px;
+            font-weight: bold;
+            color: #202020;
+            text-transform: uppercase;
+            margin: 5px 0; }
+          .container .content .content__right .content__right__content .detail .info .vote {
+            font-size: 12px;
+            position: relative;
+            line-height: 10px; }
+            .container .content .content__right .content__right__content .detail .info .vote .star {
+              float: left;
+              color: #f5bd10;
+              padding: 0 3px; }
+            .container .content .content__right .content__right__content .detail .info .vote .text {
+              float: left;
+              font-style: italic;
+              padding: 0 3px;
+              color: #898989; }
+          .container .content .content__right .content__right__content .detail .info .text {
+            font-size: 13px;
+            color: #898989; }
+          .container .content .content__right .content__right__content .detail .info .price {
+            color: #ff0000;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 5px 0; }
+          .container .content .content__right .content__right__content .detail .info .button button {
+            background: #202020;
+            font-size: 12px;
+            font-weight: bold;
+            height: 40px;
+            padding: 0 25px;
+            margin-right: 8px;
+            color: #fff; }
+            .container .content .content__right .content__right__content .detail .info .button button:hover {
+              background: #f5bd10;
+              transition: .3s; }
+    .container .content .content__right .content__right__footer {
+      font-size: 13px; }
+      .container .content .content__right .content__right__footer .wrap {
+        float: right; }
+        .container .content .content__right .content__right__footer .wrap a button {
+          height: 40px;
+          color: #898989;
+          border: 1px solid #cccccc;
+          padding: 0 16px;
+          margin-left: 5px; }
+          .container .content .content__right .content__right__footer .wrap a button.active, .container .content .content__right .content__right__footer .wrap a button:hover {
+            background: #f5bd10;
+            border: 1px solid #f5bd10;
+            transition: .3s;
+            color: #fff; }
+
+.container .content .content__right .content__right__content .row .prod__detail {
+  padding-right: 0;
+  padding-left: 3%;
+  padding: 0% 0% 3% 3%; }
+  .container .content .content__right .content__right__content .row .prod__detail .wrap-content {
+    box-shadow: 0px 0px 4px 0px #00000033;
+    text-align: center;
+    padding: 6% 0; }
+    .container .content .content__right .content__right__content .row .prod__detail .wrap-content img {
+      width: 55%;
+      margin: 5px 0; }
+    .container .content .content__right .content__right__content .row .prod__detail .wrap-content .price {
+      color: #ff0000;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 5px 0; }
+    .container .content .content__right .content__right__content .row .prod__detail .wrap-content .name, .container .content .content__right .content__right__content .row .prod__detail .wrap-content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .content__right .content__right__content .row .prod__detail .wrap-content .price, .container .content .content__right .content__right__content .blog-detail .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .blog-detail .container .content .content__right .content__right__content .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .email2, .container .content .content__right .content__right__content .blog-detail .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .email2, .blog-detail .container .content .content__right .content__right__content .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .email2, .container .content .content__right .content__right__content .blog-detail .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .blog-detail .container .content .content__right .content__right__content .row .prod__detail .wrap-content .col-9.blog__content .blog__content__form .comment, .container .content .content__right .content__right__content .blog-detail .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .comment, .blog-detail .container .content .content__right .content__right__content .row .col-9.blog__content .blog__content__form .prod__detail .wrap-content .comment {
+      font-size: 14px;
+      font-weight: bold;
+      color: #202020;
+      text-transform: uppercase;
+      margin: 5px 0; }
+    .container .content .content__right .content__right__content .row .prod__detail .wrap-content .vote {
+      font-size: 12px;
+      position: relative;
+      padding: 0 20%;
+      margin: 5px 0; }
+      .container .content .content__right .content__right__content .row .prod__detail .wrap-content .vote .star {
+        float: left;
+        color: #f5bd10;
+        padding: 0 3px; }
+      .container .content .content__right .content__right__content .row .prod__detail .wrap-content .vote .text {
+        float: left;
+        font-style: italic;
+        padding: 0 3px;
+        color: #898989; }
+    .container .content .content__right .content__right__content .row .prod__detail .wrap-content .button {
+      visibility: hidden; }
+      .container .content .content__right .content__right__content .row .prod__detail .wrap-content .button button {
+        background: #202020;
+        font-size: 12px;
+        font-weight: bold;
+        height: 40px;
+        width: 41%;
+        margin: 0 5px;
+        color: #fff; }
+        .container .content .content__right .content__right__content .row .prod__detail .wrap-content .button button:hover {
+          background: #f5bd10; }
+  .container .content .content__right .content__right__content .row .prod__detail:hover .button {
+    visibility: inherit; }
+
+.content__right {
+  color: #898989; }
+  .content__right .content__right__top .img, .container .content .content__right .content__right__top .content__right__content .detail .info, .container .content .content__right .content__right__content .detail .content__right__top .info, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content__right .content__right__top .content, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content__right .content__right__top .content {
+    width: 40%;
+    float: left; }
+    .content__right .content__right__top .img .img__large, .container .content .content__right .content__right__top .content__right__content .detail .info .img__large, .container .content .content__right .content__right__content .detail .content__right__top .info .img__large, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .img__large, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content__right .content__right__top .content .img__large, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .img__large, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content__right .content__right__top .content .img__large {
+      border: 1px solid #e1e1e1; }
+      .content__right .content__right__top .img .img__large img, .container .content .content__right .content__right__top .content__right__content .detail .info .img__large img, .container .content .content__right .content__right__content .detail .content__right__top .info .img__large img, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .img__large img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content__right .content__right__top .content .img__large img, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .img__large img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content__right .content__right__top .content .img__large img {
+        width: 100%; }
+    .content__right .content__right__top .img .img__small img, .container .content .content__right .content__right__top .content__right__content .detail .info .img__small img, .container .content .content__right .content__right__content .detail .content__right__top .info .img__small img, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .img__small img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content__right .content__right__top .content .img__small img, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .img__small img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content__right .content__right__top .content .img__small img {
+      width: 19%;
+      float: left;
+      border: 1px solid #e1e1e1;
+      margin: 3px 3px 3px 0; }
+  .content__right .content__right__top .content {
+    width: 60%;
+    float: left;
+    padding-left: 30px; }
+    .content__right .content__right__top .content .name, .content__right .content__right__top .container .content .content__left .menu-promotion .menu__info .text2 .price, .container .content__right .content__right__top .content .content__left .menu-promotion .menu__info .text2 .price, .content__right .content__right__top .content .blog-detail .row .col-9.blog__content .blog__content__form .email2, .blog-detail .row .col-9.blog__content .blog__content__form .content__right .content__right__top .content .email2, .content__right .content__right__top .content .blog-detail .row .col-9.blog__content .blog__content__form .comment, .blog-detail .row .col-9.blog__content .blog__content__form .content__right .content__right__top .content .comment {
+      font-size: 24px;
+      color: #252525;
+      font-weight: bold; }
+    .content__right .content__right__top .content .vote {
+      font-size: 12px;
+      margin: 5px 0; }
+      .content__right .content__right__top .content .vote .star {
+        float: left;
+        color: #f5bd10;
+        padding: 0 3px; }
+      .content__right .content__right__top .content .vote .text {
+        float: left;
+        font-style: italic;
+        padding: 0 15px;
+        color: #898989; }
+      .content__right .content__right__top .content .vote a {
+        color: #252525;
+        padding: 0 15px;
+        border-left: 1px solid #252525; }
+        .content__right .content__right__top .content .vote a:hover {
+          text-decoration: underline; }
+    .content__right .content__right__top .content .price {
+      color: #ff0000;
+      font-size: 22px;
+      font-weight: bold;
+      margin: 5px 0; }
+    .content__right .content__right__top .content .info {
+      padding: 15px 0;
+      border-top: 1px solid #e1e1e1;
+      border-bottom: 1px solid #e1e1e1; }
+      .content__right .content__right__top .content .info h4 {
+        color: #252525;
+        font-weight: bold;
+        font-size: 14px; }
+      .content__right .content__right__top .content .info p {
+        font-size: 12px; }
+    .content__right .content__right__top .content .select {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #e1e1e1; }
+      .content__right .content__right__top .content .select .col-6 {
+        padding: 0 30px 0 0; }
+        .content__right .content__right__top .content .select .col-6 p {
+          size: 14px;
+          color: #252525;
+          font-weight: bold;
+          padding: 15px 0; }
+        .content__right .content__right__top .content .select .col-6 select {
+          font-size: 13px;
+          height: 38px;
+          width: 100%;
+          border-color: #e1e1e1;
+          color: #898989; }
+    .content__right .content__right__top .content .button {
+      padding: 30px 0; }
+      .content__right .content__right__top .content .button input, .content__right .content__right__top .content .button button {
+        text-align: center;
+        height: 40px;
+        width: 110px;
+        border: 1px solid #e1e1e1;
+        margin-right: 10px; }
+      .content__right .content__right__top .content .button button {
+        border: 1px solid #e1e1e1;
+        background: #202020;
+        color: #fff;
+        font-weight: bold; }
+        .content__right .content__right__top .content .button button:hover {
+          background: #f5bd10;
+          transition: .3s; }
+    .content__right .content__right__top .content .share .fa-facebook-square, .content__right .content__right__top .content .share .fa-twitter, .content__right .content__right__top .content .share .fa-google-plus-g, .content__right .content__right__top .content .share .fa-plus-square {
+      width: max-content;
+      float: left;
+      color: #fff;
+      background: #5978d1;
+      padding: 10px;
+      margin-left: 5px;
+      border-radius: 3px; }
+      .content__right .content__right__top .content .share .fa-facebook-square::before, .content__right .content__right__top .content .share .fa-twitter::before, .content__right .content__right__top .content .share .fa-google-plus-g::before, .content__right .content__right__top .content .share .fa-plus-square::before {
+        padding-right: 5px; }
+    .content__right .content__right__top .content .share .fa-twitter {
+      background: #1b95e0; }
+    .content__right .content__right__top .content .share .fa-google-plus-g {
+      background: none;
+      color: #db4437;
+      border: 1px solid #e1e1e1; }
+      .content__right .content__right__top .content .share .fa-google-plus-g::before {
+        padding-right: 0; }
+    .content__right .content__right__top .content .share .fa-plus-square {
+      border: 1px solid #e1e1e1;
+      background: none;
+      color: #fe6d4c;
+      float: right; }
+    .content__right .content__right__top .content .share .talkbubble {
+      margin-left: 15px;
+      float: left;
+      height: 36px;
+      border: 1px solid #e1e1e1;
+      padding: 0 16px;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px; }
+    .content__right .content__right__top .content .share .talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 13px;
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-right: 10px solid #e1e1e1;
+      border-bottom: 5px solid transparent; }
+  .content__right .content__right__center .main {
+    height: 38px; }
+    .content__right .content__right__center .main a {
+      color: #252525;
+      padding: 15px 40px;
+      border: 1px solid #e1e1e1;
+      font-size: 14px;
+      font-weight: bold; }
+      .content__right .content__right__center .main a.active, .content__right .content__right__center .main a:hover {
+        color: #f5bd10;
+        background: #202020; }
+  .content__right .content__right__center .sub {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    text-align: justify;
+    font-size: 13px; }
+  .content__right .content__right__bottom {
+    padding: 30px 0; }
+    .content__right .content__right__bottom .top {
+      width: 100%; }
+      .content__right .content__right__bottom .top .top__left {
+        float: left; }
+        .content__right .content__right__bottom .top .top__left .fas {
+          color: #f5bd10;
+          float: left;
+          font-size: 12px;
+          padding-top: 4px; }
+        .content__right .content__right__bottom .top .top__left h2 {
+          color: #111111;
+          font-size: 18px;
+          font-weight: bold;
+          float: left;
+          margin-left: 10px; }
+      .content__right .content__right__bottom .top .top__right {
+        float: right; }
+        .content__right .content__right__bottom .top .top__right button {
+          width: 32px;
+          height: 32px;
+          background: none;
+          border: 1px solid #898989;
+          margin-left: 5px;
+          color: #898989;
+          transition: .3s; }
+          .content__right .content__right__bottom .top .top__right button:hover {
+            border: 1px solid #202020;
+            background: #202020;
+            color: #fff; }
+    .content__right .content__right__bottom .bottom {
+      width: 100%; }
+      .content__right .content__right__bottom .bottom .prod__detail {
+        padding-right: 0;
+        padding-left: 3%;
+        padding: 0 0 3% 3%; }
+        .content__right .content__right__bottom .bottom .prod__detail .wrap-content {
+          box-shadow: 0px 0px 4px 0px #00000033;
+          text-align: center;
+          padding: 6% 0; }
+          .content__right .content__right__bottom .bottom .prod__detail .wrap-content img {
+            width: 55%;
+            margin: 5px 0; }
+          .content__right .content__right__bottom .bottom .prod__detail .wrap-content .price {
+            color: #ff0000;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 0; }
+          .content__right .content__right__bottom .bottom .prod__detail .wrap-content .name, .content__right .content__right__bottom .bottom .prod__detail .wrap-content .container .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .content__right .content__right__bottom .bottom .prod__detail .wrap-content .price, .content__right .content__right__bottom .bottom .prod__detail .wrap-content .blog-detail .row .col-9.blog__content .blog__content__form .email2, .blog-detail .row .col-9.blog__content .blog__content__form .content__right .content__right__bottom .bottom .prod__detail .wrap-content .email2, .content__right .content__right__bottom .bottom .prod__detail .wrap-content .blog-detail .row .col-9.blog__content .blog__content__form .comment, .blog-detail .row .col-9.blog__content .blog__content__form .content__right .content__right__bottom .bottom .prod__detail .wrap-content .comment {
+            font-size: 14px;
+            font-weight: bold;
+            color: #202020;
+            text-transform: uppercase;
+            margin: 5px 0; }
+          .content__right .content__right__bottom .bottom .prod__detail .wrap-content .vote {
+            font-size: 12px;
+            position: relative;
+            padding: 0 20%;
+            margin: 5px 0; }
+            .content__right .content__right__bottom .bottom .prod__detail .wrap-content .vote .star {
+              float: left;
+              color: #f5bd10;
+              padding: 0 3px; }
+            .content__right .content__right__bottom .bottom .prod__detail .wrap-content .vote .text {
+              float: left;
+              font-style: italic;
+              padding: 0 3px;
+              color: #898989; }
+          .content__right .content__right__bottom .bottom .prod__detail .wrap-content .button {
+            visibility: hidden; }
+            .content__right .content__right__bottom .bottom .prod__detail .wrap-content .button button {
+              background: #202020;
+              font-size: 12px;
+              font-weight: bold;
+              height: 40px;
+              width: 41%;
+              margin: 0 5px;
+              color: #fff; }
+              .content__right .content__right__bottom .bottom .prod__detail .wrap-content .button button:hover {
+                background: #f5bd10; }
+        .content__right .content__right__bottom .bottom .prod__detail:hover .button {
+          visibility: inherit; }
+
+.signin .signin__left, .signin .signin__right {
+  width: 48%;
+  float: left; }
+  .signin .signin__left .tick, .signin .signin__right .tick, .signin .signin__left .forget, .signin .signin__right .forget {
+    width: max-content !important; }
+  .signin .signin__left .forget, .signin .signin__right .forget {
+    float: right !important; }
+    .signin .signin__left .forget:hover, .signin .signin__right .forget:hover {
+      color: #f5bd10;
+      text-decoration: underline; }
+  .signin .signin__left .form, .signin .signin__right .form {
+    width: 100% !important; }
+.signin .signin__right {
+  float: right; }
+  .signin .signin__right .text {
+    font-size: 14px;
+    color: #898989;
+    padding-bottom: 13px; }
+
+.breadcrumb {
+  border-bottom: 1px solid #e1e1e1;
+  border-radius: 0; }
+
+.info-profile h3, .signin .signin__left h3, .signin .signin__right h3, .info-signup h3 {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 0; }
+.info-profile .form, .signin .signin__left .form, .signin .signin__right .form, .info-signup .form {
+  font-size: 14px;
+  width: 48%;
+  float: left; }
+  .info-profile .form p, .signin .signin__left .form p, .signin .signin__right .form p, .info-signup .form p {
+    color: #252525;
+    width: max-content;
+    float: left;
+    padding: 10px 0; }
+  .info-profile .form i, .signin .signin__left .form i, .signin .signin__right .form i, .info-signup .form i {
+    float: left;
+    padding: 10px 0;
+    color: #ff0000;
+    padding-left: 5px; }
+  .info-profile .form.right, .signin .signin__left .form.right, .signin .signin__right .form.right, .info-signup .form.right {
+    float: right; }
+  .info-profile .form input, .signin .signin__left .form input, .signin .signin__right .form input, .info-signup .form input, .info-profile .form .email button, .email .info-profile .form button, .signin .signin__left .form .email button, .email .signin .signin__left .form button, .signin .signin__right .form .email button, .email .signin .signin__right .form button, .info-signup .form .email button, .email .info-signup .form button, .info-profile .form .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .info-profile .form button, .signin .signin__left .form .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .signin .signin__left .form button, .signin .signin__right .form .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .signin .signin__right .form button, .info-signup .form .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .info-signup .form button {
+    width: 98%;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    padding: 0 10px; }
+.info-profile .tick, .signin .signin__left .tick, .signin .signin__right .tick, .info-signup .tick, .signin .signin__left .forget, .signin .signin__right .forget {
+  margin: 20px 0;
+  width: 100%;
+  float: left;
+  font-size: 14px;
+  font-style: italic;
+  color: #898989; }
+
+.signup .button, .signin .button {
+  width: max-content; }
+  .signup .button button, .signin .button button {
+    width: 125px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #f5bd10;
+    margin-right: 10px;
+    margin-bottom: 100px; }
+    .signup .button button:hover, .signin .button button:hover {
+      background: #252525;
+      transition: .3s; }
+
+.blog__menu {
+  padding: 0;
+  margin: 0; }
+  .blog__menu .blog__menu__prod {
+    padding: 0;
+    box-shadow: 0px 0px 4px 0px #00000033; }
+    .blog__menu .blog__menu__prod .menu__info {
+      height: 60px;
+      padding-top: 18px;
+      font-size: 13px;
+      border-top: 1px solid #e1e1e1;
+      border-left: 1px solid #e1e1e1;
+      border-right: 1px solid #e1e1e1; }
+      .blog__menu .blog__menu__prod .menu__info:last-child {
+        border-bottom: 1px solid #e1e1e1; }
+      .blog__menu .blog__menu__prod .menu__info.active, .blog__menu .blog__menu__prod .menu__info:hover {
+        background: #202020;
+        transition: .5s; }
+        .blog__menu .blog__menu__prod .menu__info.active .fas,
+        .blog__menu .blog__menu__prod .menu__info.active .text, .blog__menu .blog__menu__prod .menu__info:hover .fas,
+        .blog__menu .blog__menu__prod .menu__info:hover .text {
+          color: #f5bd10; }
+      .blog__menu .blog__menu__prod .menu__info .fas {
+        width: 15%;
+        height: 60px;
+        color: #898989;
+        font-size: 12px;
+        float: left;
+        padding: 5px 20px; }
+      .blog__menu .blog__menu__prod .menu__info .text {
+        float: left;
+        color: #898989; }
+  .blog__menu .blog__menu__news, .blog__menu .blog__menu__img, .blog__menu .blog__menu__tags {
+    margin-top: 30px;
+    list-style: none; }
+    .blog__menu .blog__menu__news .title, .blog__menu .blog__menu__img .title, .blog__menu .blog__menu__tags .title, .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .blog__menu__img li, .blog__menu .blog__menu__img .blog__menu__news li, .blog__menu .blog__menu__img li, .blog__menu .blog__menu__news .blog__menu__tags li, .blog__menu .blog__menu__tags .blog__menu__news li, .blog__menu .blog__menu__tags li {
+      height: 60px;
+      padding-top: 18px;
+      font-size: 13px;
+      border-bottom: 1px solid #f5bd10; }
+      .blog__menu .blog__menu__news .title .fas, .blog__menu .blog__menu__img .title .fas, .blog__menu .blog__menu__tags .title .fas, .blog__menu .blog__menu__news li .fas, .blog__menu .blog__menu__news .blog__menu__img li .fas, .blog__menu .blog__menu__img .blog__menu__news li .fas, .blog__menu .blog__menu__img li .fas, .blog__menu .blog__menu__news .blog__menu__tags li .fas, .blog__menu .blog__menu__tags .blog__menu__news li .fas, .blog__menu .blog__menu__img .blog__menu__tags li .fas, .blog__menu .blog__menu__tags .blog__menu__img li .fas, .blog__menu .blog__menu__tags li .fas {
+        color: #f5bd10;
+        font-size: 12px;
+        float: left;
+        padding: 5px 10px 5px 0; }
+      .blog__menu .blog__menu__news .title .text, .blog__menu .blog__menu__img .title .text, .blog__menu .blog__menu__tags .title .text, .blog__menu .blog__menu__news li .text, .blog__menu .blog__menu__news .blog__menu__img li .text, .blog__menu .blog__menu__img .blog__menu__news li .text, .blog__menu .blog__menu__img li .text, .blog__menu .blog__menu__news .blog__menu__tags li .text, .blog__menu .blog__menu__tags .blog__menu__news li .text, .blog__menu .blog__menu__img .blog__menu__tags li .text, .blog__menu .blog__menu__tags .blog__menu__img li .text, .blog__menu .blog__menu__tags li .text {
+        color: #252525;
+        font-size: 14px;
+        font-weight: bold;
+        width: max-content;
+        float: left; }
+    .blog__menu .blog__menu__news li, .blog__menu .blog__menu__img li, .blog__menu .blog__menu__tags li {
+      color: #9c9c9c;
+      border-bottom: 1px solid #e1e1e1; }
+      .blog__menu .blog__menu__news li:last-child, .blog__menu .blog__menu__img li:last-child, .blog__menu .blog__menu__tags li:last-child {
+        border-bottom: none; }
+  .blog__menu .blog__menu__img .title, .blog__menu .blog__menu__tags .title, .blog__menu .blog__menu__img .blog__menu__news li, .blog__menu .blog__menu__news .blog__menu__img li, .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .blog__menu__tags li, .blog__menu .blog__menu__tags .blog__menu__img li, .blog__menu .blog__menu__tags li {
+    border-bottom: none; }
+  .blog__menu .blog__menu__img .row .col-4, .blog__menu .blog__menu__tags .row .col-4 {
+    padding: 0;
+    margin: 0; }
+    .blog__menu .blog__menu__img .row .col-4 img, .blog__menu .blog__menu__tags .row .col-4 img {
+      width: 95%;
+      margin-bottom: 3px; }
+  .blog__menu .blog__menu__tags button {
+    padding: 0 15px;
+    height: 32px;
+    color: #898989;
+    border: 1px solid #e1e1e1;
+    font-size: 13px;
+    font-style: italic;
+    margin: 0 5px 5px 0; }
+    .blog__menu .blog__menu__tags button:hover {
+      color: #fff;
+      border: 1px solid #202020;
+      background: #202020;
+      transition: .3s; }
+
+.blog__content .blog__content__wrap {
+  font-size: 13px; }
+  .blog__content .blog__content__wrap img {
+    width: 100%;
+    height: 350px; }
+  .blog__content .blog__content__wrap .title, .blog__content .blog__content__wrap .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .blog__content .blog__content__wrap li, .blog__content .blog__content__wrap .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .blog__content .blog__content__wrap li, .blog__content .blog__content__wrap .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .blog__content .blog__content__wrap li {
+    color: #252525;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px; }
+  .blog__content .blog__content__wrap .info {
+    font-size: 13px;
+    color: #a1a1a1;
+    font-style: italic; }
+    .blog__content .blog__content__wrap .info .date, .blog__content .blog__content__wrap .info .author, .blog__content .blog__content__wrap .info .comment, .blog__content .blog__content__wrap .info .author i, .blog__content .blog__content__wrap .info .comment i, .blog__content .blog__content__wrap .info .author p, .blog__content .blog__content__wrap .info .comment p, .blog__content .blog__content__wrap .info .author span, .blog__content .blog__content__wrap .info .comment span {
+      width: max-content;
+      float: left;
+      margin-right: 30px; }
+    .blog__content .blog__content__wrap .info .author i, .blog__content .blog__content__wrap .info .comment i {
+      margin-right: 3px;
+      padding-top: 3px; }
+    .blog__content .blog__content__wrap .info .author p, .blog__content .blog__content__wrap .info .comment p {
+      margin-right: 3px; }
+    .blog__content .blog__content__wrap .info .author span, .blog__content .blog__content__wrap .info .comment span {
+      margin-right: 3px; }
+      .blog__content .blog__content__wrap .info .author span:hover, .blog__content .blog__content__wrap .info .comment span:hover {
+        color: #f5bd10; }
+    .blog__content .blog__content__wrap .info .comment span {
+      color: #a1a1a1; }
+  .blog__content .blog__content__wrap .text {
+    color: #898989;
+    text-align: justify; }
+  .blog__content .blog__content__wrap .readmore {
+    color: #898989; }
+    .blog__content .blog__content__wrap .readmore:hover {
+      color: #f5bd10; }
+.blog__content hr {
+  margin: 40px 0;
+  color: #e1e1e1; }
+.blog__content .content__right__footer {
+  font-size: 13px;
+  margin: 30px 0 80px 0; }
+  .blog__content .content__right__footer .wrap {
+    float: right; }
+    .blog__content .content__right__footer .wrap a button {
+      height: 40px;
+      color: #898989;
+      border: 1px solid #cccccc;
+      padding: 0 16px;
+      margin-left: 5px; }
+      .blog__content .content__right__footer .wrap a button.active, .blog__content .content__right__footer .wrap a button:hover {
+        background: #f5bd10;
+        border: 1px solid #f5bd10;
+        transition: .3s;
+        color: #fff; }
+
+.blog-detail .row .col-9.blog__content .blog__content__wrap .img, .blog-detail .row .col-9.blog__content .blog__content__wrap .container .content .content__right .content__right__content .detail .info, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__wrap .info, .blog-detail .row .col-9.blog__content .blog__content__wrap .blog__content__cmt .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .blog__content__wrap .content, .blog-detail .row .col-9.blog__content .blog__content__wrap .blog__content__form .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .blog__content__wrap .content {
+  padding: 30px 50px; }
+  .blog-detail .row .col-9.blog__content .blog__content__wrap .img img, .blog-detail .row .col-9.blog__content .blog__content__wrap .container .content .content__right .content__right__content .detail .info img, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__wrap .info img, .blog-detail .row .col-9.blog__content .blog__content__wrap .blog__content__cmt .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .blog__content__wrap .content img, .blog-detail .row .col-9.blog__content .blog__content__wrap .blog__content__form .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .blog__content__wrap .content img {
+    width: 100%;
+    height: auto; }
+.blog-detail .row .col-9.blog__content .blog__content__wrap .bottom {
+  margin-top: 30px; }
+  .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share {
+    float: left;
+    width: max-content; }
+    .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags .title, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share .title, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags li, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share li, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags li, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share li, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags li, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share li {
+      float: left; }
+    .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags p, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share p {
+      float: left;
+      margin: 10px;
+      font-style: italic;
+      font-size: 13px;
+      color: #898989; }
+      .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .tags p:hover, .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share p:hover {
+        color: #f5bd10; }
+  .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share {
+    float: right; }
+    .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share button {
+      width: 32px;
+      height: 32px;
+      border: 1px solid #e1e1e1;
+      color: #898989;
+      margin: 5px 0 0 5px; }
+      .blog-detail .row .col-9.blog__content .blog__content__wrap .bottom .share button:hover {
+        color: #fff;
+        background: #f5bd10;
+        transition: .3s;
+        border: 1px solid #f5bd10; }
+.blog-detail .row .col-9.blog__content .blog__content__cmt .title, .blog-detail .row .col-9.blog__content .blog__content__form .title, .blog-detail .row .col-9.blog__content .blog__content__cmt .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .blog-detail .row .col-9.blog__content .blog__content__cmt li, .blog-detail .row .col-9.blog__content .blog__content__form .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .blog-detail .row .col-9.blog__content .blog__content__form li, .blog-detail .row .col-9.blog__content .blog__content__cmt .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .blog-detail .row .col-9.blog__content .blog__content__cmt li, .blog-detail .row .col-9.blog__content .blog__content__form .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .blog-detail .row .col-9.blog__content .blog__content__form li, .blog-detail .row .col-9.blog__content .blog__content__cmt .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .blog-detail .row .col-9.blog__content .blog__content__cmt li, .blog-detail .row .col-9.blog__content .blog__content__form .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .blog-detail .row .col-9.blog__content .blog__content__form li {
+  font-size: 14px;
+  font-weight: bold; }
+.blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 {
+  margin-top: 40px; }
+  .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .container .content .content__right .content__right__content .detail .info, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .info, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .container .content .content__right .content__right__content .detail .info, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .info, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content {
+    padding: 0;
+    margin: 0; }
+    .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .img img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .img img, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .info img, .container .content .content__right .content__right__content .detail .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .info img, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content img, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content img {
+      border: 1px solid #e1e1e1;
+      padding: 3px;
+      width: 90%; }
+  .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content {
+    font-size: 13px;
+    font-style: italic;
+    text-align: justify; }
+    .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .title, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .title, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content li, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content li, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content li, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content li, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content li, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content li {
+      font-style: normal; }
+    .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .date, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .date, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .author, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .blog__content__cmt .cmt1 .content .author, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .author, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .blog__content__form .cmt1 .content .author, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .comment, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .blog__content__cmt .cmt1 .content .comment, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .comment, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .blog__content__form .cmt1 .content .comment, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .author i, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__cmt .cmt1 .content i, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .author i, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__form .cmt1 .content i, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .comment i, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__cmt .cmt1 .content i, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .comment i, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__form .cmt1 .content i, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .author p, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__cmt .cmt1 .content p, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .author p, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__form .cmt1 .content p, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .comment p, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__cmt .cmt1 .content p, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .comment p, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__form .cmt1 .content p, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .author span, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__cmt .cmt1 .content span, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .author span, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__form .cmt1 .content span, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .comment span, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__cmt .cmt1 .content span, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .comment span, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__form .cmt1 .content span {
+      color: #a1a1a1; }
+      .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .date a, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .date a, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .author a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .blog__content__cmt .cmt1 .content .author a, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .author a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .blog__content__form .cmt1 .content .author a, .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .blog__content__wrap .info .comment a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .blog__content__cmt .cmt1 .content .comment a, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .blog__content__wrap .info .comment a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .blog__content__form .cmt1 .content .comment a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__cmt .cmt1 .content i a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__form .cmt1 .content i a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__cmt .cmt1 .content i a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__form .cmt1 .content i a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__cmt .cmt1 .content p a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__form .cmt1 .content p a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__cmt .cmt1 .content p a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__form .cmt1 .content p a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__cmt .cmt1 .content span a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .author .blog__content__form .cmt1 .content span a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__cmt .cmt1 .content span a, .blog-detail .row .col-9.blog__content .blog__content__wrap .info .comment .blog__content__form .cmt1 .content span a {
+        color: #f5bd10;
+        text-decoration: underline;
+        float: right; }
+    .blog-detail .row .col-9.blog__content .blog__content__cmt .cmt1 .content .cmt, .blog-detail .row .col-9.blog__content .blog__content__form .cmt1 .content .cmt {
+      color: #898989; }
+.blog-detail .row .col-9.blog__content .blog__content__form .name, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .price, .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price, .blog-detail .row .col-9.blog__content .blog__content__form .email2, .blog-detail .row .col-9.blog__content .blog__content__form .comment {
+  margin: 10px 0;
+  width: 48%;
+  float: left;
+  font-size: 14px; }
+  .blog-detail .row .col-9.blog__content .blog__content__form .name p, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .price p, .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price p, .blog-detail .row .col-9.blog__content .blog__content__form .email2 p, .blog-detail .row .col-9.blog__content .blog__content__form .comment p {
+    color: #464646;
+    display: inline; }
+  .blog-detail .row .col-9.blog__content .blog__content__form .name i, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .price i, .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price i, .blog-detail .row .col-9.blog__content .blog__content__form .email2 i, .blog-detail .row .col-9.blog__content .blog__content__form .comment i {
+    color: #ff0000; }
+  .blog-detail .row .col-9.blog__content .blog__content__form .name input, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .price input, .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price input, .blog-detail .row .col-9.blog__content .blog__content__form .email2 input, .blog-detail .row .col-9.blog__content .blog__content__form .comment input, .blog-detail .row .col-9.blog__content .blog__content__form .name .email button, .email .blog-detail .row .col-9.blog__content .blog__content__form .name button, .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .price .email button, .email .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .price button, .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price .email button, .email .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price button, .blog-detail .row .col-9.blog__content .blog__content__form .email2 .email button, .email .blog-detail .row .col-9.blog__content .blog__content__form .email2 button, .blog-detail .row .col-9.blog__content .blog__content__form .comment .email button, .email .blog-detail .row .col-9.blog__content .blog__content__form .comment button, .blog-detail .row .col-9.blog__content .blog__content__form .name .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .blog-detail .row .col-9.blog__content .blog__content__form .name button, .blog-detail .row .col-9.blog__content .blog__content__form .container .content__right .content__right__top .content .content__left .menu-promotion .menu__info .text2 .price .button button, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__form .container .content .content__left .menu-promotion .menu__info .text2 .price .button button, .blog-detail .row .col-9.blog__content .blog__content__form .container .content__right .content__right__top .content .button .content__left .menu-promotion .menu__info .text2 .price button, .content__right .content__right__top .blog-detail .row .col-9.blog__content .blog__content__form .container .content .button .content__left .menu-promotion .menu__info .text2 .price button, .container .content__right .content__right__top .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price .button button, .content__right .content__right__top .container .content .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price .button button, .container .content__right .content__right__top .content .button .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price button, .content__right .content__right__top .container .content .button .content__left .menu-promotion .menu__info .text2 .blog-detail .row .col-9.blog__content .blog__content__form .price button, .blog-detail .row .col-9.blog__content .blog__content__form .email2 .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .blog-detail .row .col-9.blog__content .blog__content__form .email2 button, .blog-detail .row .col-9.blog__content .blog__content__form .comment .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .blog-detail .row .col-9.blog__content .blog__content__form .comment button {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    height: 40px;
+    margin: 10px 0; }
+.blog-detail .row .col-9.blog__content .blog__content__form .email2 {
+  float: right; }
+.blog-detail .row .col-9.blog__content .blog__content__form .comment {
+  width: 100%; }
+  .blog-detail .row .col-9.blog__content .blog__content__form .comment input, .blog-detail .row .col-9.blog__content .blog__content__form .comment .email button, .email .blog-detail .row .col-9.blog__content .blog__content__form .comment button, .blog-detail .row .col-9.blog__content .blog__content__form .comment .content__right .content__right__top .content .button button, .content__right .content__right__top .content .button .blog-detail .row .col-9.blog__content .blog__content__form .comment button {
+    height: 160px; }
+.blog-detail .row .col-9.blog__content .blog__content__form button {
+  height: 45px;
+  padding: 0 15px;
+  margin-bottom: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: #202020; }
+  .blog-detail .row .col-9.blog__content .blog__content__form button:hover {
+    background: #f5bd10;
+    transition: .3s; }
+
+.cart {
+  font-weight: bold; }
+  .cart .breadcrumb {
+    font-weight: normal; }
+  .cart .button {
+    float: right; }
+    .cart .button button {
+      font-size: 14px;
+      font-weight: bold;
+      height: 55px;
+      padding: 0 30px;
+      margin: 15px 0px 80px 10px;
+      color: #fff;
+      background: #202020; }
+      .cart .button button:hover {
+        background: #f5bd10;
+        transition: .3s; }
+
+.table {
+  text-align: center; }
+  .table th {
+    padding: 1rem 0; }
+  .table tbody tr {
+    height: 150px; }
+    .table tbody tr td {
+      position: relative; }
+      .table tbody tr td .wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+        .table tbody tr td .wrap img {
+          width: 100%; }
+      .table tbody tr td:nth-child(1) {
+        width: 95px; }
+      .table tbody tr td:nth-child(2) {
+        width: 190px; }
+      .table tbody tr td:nth-child(3) {
+        width: 285px; }
+        .table tbody tr td:nth-child(3) div {
+          width: 100%; }
+      .table tbody tr td:nth-child(4) {
+        width: 190px; }
+      .table tbody tr td:nth-child(5) {
+        width: 95px; }
+      .table tbody tr td:nth-child(6) {
+        width: 190px; }
+      .table tbody tr td:nth-child(7) {
+        width: 95px;
+        color: #ff0000; }
+
+.table-pay {
+  width: 100%;
+  float: right;
+  text-transform: uppercase; }
+  .table-pay tbody {
+    width: 50%;
+    float: right; }
+    .table-pay tbody tr {
+      height: 60px; }
+      .table-pay tbody tr td {
+        padding: 0 30px 0 150px;
+        text-align: right; }
+        .table-pay tbody tr td.red, .table-pay tbody tr .container .content .content__left .menu-color .menu__info td.yellow, .container .content .content__left .menu-color .menu__info .table-pay tbody tr td.yellow, .table-pay tbody tr .container .content .content__left .menu-color .menu__info td.blue, .container .content .content__left .menu-color .menu__info .table-pay tbody tr td.blue, .table-pay tbody tr .container .content .content__left .menu-color .menu__info td.silver, .container .content .content__left .menu-color .menu__info .table-pay tbody tr td.silver, .table-pay tbody tr .container .content .content__left .menu-color .menu__info td.black, .container .content .content__left .menu-color .menu__info .table-pay tbody tr td.black {
+          color: #ff0000; }
+  .table-pay.table-bordered {
+    border: none; }
+
+.error .error__left {
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  float: left;
+  position: relative; }
+  .error .error__left .wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .error .error__left .wrap .title, .error .error__left .wrap .blog__menu .blog__menu__news li, .blog__menu .blog__menu__news .error .error__left .wrap li, .error .error__left .wrap .blog__menu .blog__menu__img li, .blog__menu .blog__menu__img .error .error__left .wrap li, .error .error__left .wrap .blog__menu .blog__menu__tags li, .blog__menu .blog__menu__tags .error .error__left .wrap li {
+      font-size: 100px;
+      color: #f5bd10;
+      font-weight: bold; }
+    .error .error__left .wrap .text {
+      width: max-content;
+      font-size: 18px;
+      color: #252525; }
+    .error .error__left .wrap a button {
+      width: 150px;
+      height: 55px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      background: #252525;
+      margin: 30px 0; }
+      .error .error__left .wrap a button:hover {
+        background: #f5bd10;
+        transition: .3s; }
+.error .error__right {
+  width: 40%;
+  float: left; }
+  .error .error__right .wrap img {
+    width: 100%; }
 
 /*# sourceMappingURL=homepage.css.map */

@@ -4,8 +4,19 @@
         width: 48%;
         float: left;
         @extend .info-profile;
+        .tick {
+            width: max-content !important;
+        }
+        .forget {
+            @extend .tick;
+            float: right !important;
+            &:hover {
+                color: $yellow;
+                text-decoration: underline;
+            }
+        }
         .form {
-            width: $pc100;
+            width: 100% !important;
         }
     }
     .signin__right {

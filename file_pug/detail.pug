@@ -8,7 +8,7 @@ head
     // Font Awesome CDN
     link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/", crossorigin="anonymous")
     // Link CSS
-    link(rel="stylesheet", href="../file_scss/homepage.css")
+    link(rel="stylesheet", href="../build/homepage.css")
     title Project 1 - Machine Company
 body
 
@@ -20,10 +20,10 @@ body
             .name Máy khoan Black Decker
             .vote
                 .star
-                    i.fas.fa-star
-                    i.fas.fa-star
-                    i.fas.fa-star
-                    i.fas.fa-star
+                    - var n = 0
+                        while n < 4
+                            i.fas.fa-star
+                            -n++ 
                     i.far.fa-star
                 .text (12 Đánh giá)
                 .clearfix
@@ -48,21 +48,21 @@ body
                 .content__right__top
                     .img
                         .img__large
-                            img(src="../images/39.jpg", alt="")
+                            img(src="../build/images/39.jpg", alt="")
                         .img__small
-                            img(src="../images/6.jpg", alt="")
-                            img(src="../images/36.jpg", alt="")
-                            img(src="../images/37.jpg", alt="")
-                            img(src="../images/38.jpg", alt="")
-                            img(src="../images/11.jpg", alt="")
+                            img(src="../build/images/6.jpg", alt="")
+                            img(src="../build/images/36.jpg", alt="")
+                            img(src="../build/images/37.jpg", alt="")
+                            img(src="../build/images/38.jpg", alt="")
+                            img(src="../build/images/11.jpg", alt="")
                     .content
                         .name MÁY KHOAN CNC 3D
                         .vote
                             .star
-                                i.fas.fa-star
-                                i.fas.fa-star
-                                i.fas.fa-star
-                                i.fas.fa-star
+                                - var n = 0
+                                    while n < 4
+                                        i.fas.fa-star
+                                        -n++ 
                                 i.far.fa-star
                             .text (12 Đánh giá)
                             a(href="") Gửi bình luận của bạn
@@ -124,11 +124,11 @@ body
                         .clearfix
                     .row.bottom
                         .col-4.prod__detail
-                            +prod__detail('../images/3.jpg') 
+                            +prod__detail('../build/images/3.jpg') 
                         .col-4.prod__detail
-                            +prod__detail('../images/4.jpg') 
+                            +prod__detail('../build/images/4.jpg') 
                         .col-4.prod__detail
-                            +prod__detail('../images/5.jpg')                                                    
+                            +prod__detail('../build/images/5.jpg')                                                    
         .clearfix
 
     include ../file_pug/sub_page/_footer.pug
