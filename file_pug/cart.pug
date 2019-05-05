@@ -11,6 +11,8 @@ head
     link(rel="stylesheet", href="../build/homepage.css")
     title Giỏ hàng
 body
+
+    // Khai báo mixin - Không còn được sử dụng khi qua học JS
     mixin prod(stt,img,info,price,amount,money)
         tr
             td
@@ -27,32 +29,35 @@ body
     include ../file_pug/sub_page/_header.pug
     
     .container.cart
+        // Thanh breacrum
         .breadcrumb
             li.breadcrumb-item
                 a(href="") Trang chủ
             i.fas.fa-caret-right
             li.breadcrumb-item.active Giỏ hàng
+        // Bảng hiển thị các sản phẩm đã thêm vào giỏ
         table.table.table-bordered
             thead
                 tr
                     each val in ['STT','SẢN PHẨM','THÔNG TIN','ĐƠN GIÁ','SỐ LƯỢNG','THÀNH TIỀN','XÓA']
                         th= val                    
-            tbody
-                +prod('1','../build/images/10.jpg','MÁY KHOAN CẮT ĐA NĂNG CNC','2.350.000 Đ','1','2.350.000 Đ')
-                +prod('2','../build/images/38.jpg','MÁY KHOAN CẮT ĐA NĂNG CNC','2.350.000 Đ','1','2.350.000 Đ')
-                +prod('3','../build/images/6.jpg','MÁY KHOAN CẮT ĐA NĂNG CNC','2.350.000 Đ','1','2.350.000 Đ')
+            tbody#cart__table
+        // Bảng hiển thị các sản phẩm đã thêm vào giỏ
         table.table-pay.table-bordered
             tbody
-                mixin tr(td1,td2,cl)
-                    tr
-                        td= td1
-                        td(class=cl)= td2
-                +tr('Tổng tiền:','6.850.000 Đ')
-                +tr('Thuế (VAT):','685.000 Đ')
-                +tr('Thanh toán:','7.520.000 Đ','red')
+                tr
+                    td Tổng tiền:
+                    td <span id="intoMoney"></span> Đ
+                tr
+                    td Thuế (VAT):
+                    td <span id="tax"></span> Đ
+                tr
+                    td Thanh toán:
+                    td.red <span id="pay"></span> Đ
         .button
-            button TIẾP TỤC MUA HÀNG
-            button THANH TOÁN
+            a(href="../file_pug/product.html")
+                button TIẾP TỤC MUA HÀNG
+            button(onclick='pay()') THANH TOÁN
         .clearfix
 
     include ../file_pug/sub_page/_footer.pug
@@ -64,3 +69,5 @@ body
     script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')
     script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous')
 
+    // Link JS
+    script(src="../file_js/cart.js")

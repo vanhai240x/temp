@@ -45,7 +45,7 @@ body
             .col-3.content__left
                 include ../file_pug/sub_page/_menu-product.pug
             .col-9.content__right
-                .content__right__top
+                .content__right__top#content__right__top
                     .img
                         .img__large
                             img(src="../build/images/39.jpg", alt="")
@@ -91,7 +91,7 @@ body
                                     option(value="5") Màu đen
                         .button
                             input(type="number", name="", min="1", max="10", value="1")
-                            button MUA NGAY
+                            button(onclick='addToCart(id)') MUA NGAY
                         .share
                             i.fab.fa-facebook-square Like
                             .talkbubble 0
@@ -139,3 +139,5 @@ body
     script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')
     script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous')
 
+    // Link JS
+    script(src="../file_js/detail.js")

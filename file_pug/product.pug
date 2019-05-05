@@ -12,12 +12,12 @@ head
     title Trang sản phẩm
 body  
 
-    // Declaration detail
+    // Declaration detail - Không còn được sử dụng khi chuyển qua học JS
     mixin detail(link)
         .col-3.img
-            img(src=link)
+            img#image(src=link)
         .col-9.info
-            .name Máy khoan Black Decker
+            .name#name Máy khoan Black Decker
             .vote
                 .star
                     - var n = 0
@@ -25,37 +25,39 @@ body
                             i.fas.fa-star
                             -n++ 
                     i.far.fa-star
-                .text (12 Đánh giá)
+                .text (<i id='vote'></i> Đánh giá)
                 .clearfix
-            .text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+            .text#info Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
                 |magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                 |consequat occaecat cupidatat non proident modi tempora incidunt...
-            .price 2.350.000 Đ
+            .price <span id = "price"></span> Đ
             .button
-                button MUA NGAY
-                button XEM CHI TIẾT 
-
+                button(onclick='addToCart(id)') MUA NGAY
+                button(onclick='showDetail(id)') XEM CHI TIẾT 
+    // Khu vực hearder
     include ../file_pug/sub_page/_header.pug
-    
+    // Khu vực content
     .container
+        // Thanh breadcrum
         .breadcrumb
             li.breadcrumb-item
                 a(href="") Trang chủ
             i.fas.fa-caret-right
             li.breadcrumb-item.active Danh mục sản phẩm
+        // Khu vực nội dung
         .content
+            // Các thanh menu
             .col-3.content__left
                 include ../file_pug/sub_page/_menu-product.pug
+            // Khu vực hiển thị list sản phẩm
             .col-9.content__right
                 .content__right__header
                     include ../file_pug/sub_page/_header-product.pug
-                .content__right__content
-                    each val in ["../build/images/10.jpg","../build/images/4.jpg","../build/images/9.jpg","../build/images/5.jpg","../build/images/11.jpg","../build/images/14.jpg","../build/images/36.jpg","../build/images/37.jpg","../build/images/38.jpg",]
-                        .detail
-                            +detail(val)
+                .content__right__content#content__right__content
                 .content__right__footer
                     include ../file_pug/sub_page/_footer-product.pug                                      
         .clearfix
+    // Khu vực phần Footer
     include ../file_pug/sub_page/_footer.pug
     
     // Optional JavaScript
@@ -64,3 +66,5 @@ body
     script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous')
     script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous')
 
+    // Link JS
+    script(src="../file_js/product.js")

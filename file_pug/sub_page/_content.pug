@@ -5,7 +5,7 @@ mixin menu__info(text)
 mixin prod__detail(link)
     .wrap-content
         img(src=link)
-        .price 1.550.000 Đ
+        .price <span></span> Đ
         .name Máy khoan Black Decker
         .vote
             .star
@@ -14,12 +14,12 @@ mixin prod__detail(link)
                         i.fas.fa-star
                         - n++
                 i.far.fa-star
-            .text (12 Đánh giá)
+            .text (<i></i> Đánh giá)
             .clearfix
         .button
             a(href="")
                 button MUA NGAY
-            a(href="../file_pug/detail.html")
+            a(onclick='showDetail()')
                 button XEM CHI TIẾT 
 
 mixin prod__detail2(link)
@@ -35,17 +35,17 @@ mixin prod__detail2(link)
                            i.fas.fa-star
                            -n++ 
                     i.far.fa-star
-                .text (12 Đánh giá)
+                .text (<i></i> Đánh giá)
                 .clearfix
             .text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et...
-            .price 2.350.000 Đ
+            .price <span></span> Đ
             .button
                 a(href="")
                     button MUA NGAY
-                a(href="../file_pug/detail.html")
+                a(onclick='showDetail()')
                     button XEM CHI TIẾT 
         .clearfix
-.container
+.container#content
     .prod-featured
         .prod-featured__top
             .prod-featured__top__left
